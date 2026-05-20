@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5888640088475548436}
   - component: {fileID: 4635490754402650991}
   - component: {fileID: 8745850899678503870}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pit
   m_TagString: Untagged
   m_Icon: {fileID: 0}

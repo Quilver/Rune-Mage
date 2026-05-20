@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
 public class EnemyAI : MonoBehaviour
 {
     [Header("References")]
@@ -22,6 +21,7 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
+        //NavMesh.CalculatePath(transform.position, player.position, NavMesh.AllAreas, new NavMeshPath());
         agent = GetComponent<NavMeshAgent>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -31,7 +31,8 @@ public class EnemyAI : MonoBehaviour
             enabled = false;
             return;
         }
-
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
         agent.speed = moveSpeed;
         agent.SetDestination(player.position);
         nextAttackTime = Time.time;
@@ -63,12 +64,14 @@ public class EnemyAI : MonoBehaviour
 
     void FireProjectile()
     {
-        if (projectilePrefab == null || firePoint == null) return;
+        if (projectilePrefab == null || firePoint
+            == null) return;
 
         Vector2 direction = (player.position - transform.position).normalized;
         // Rotate projectile to face player (adjust axis based on your sprite orientation)
         Quaternion rot = Quaternion.LookRotation(Vector3.forward, direction);
-        Instantiate(projectilePrefab, firePoint.position, rot);
+        var projectile = Instantiate(projectilePrefab);
+        projectile.GetComponent<MagicSystem.Spell.ISpellTarget>().CastSpell(firePoint.position, direction, gameObject);
     }
 
     void Stun()
