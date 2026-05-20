@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96fdb427185dc5545ba93d038a962e88, type: 3}
+  m_Name: EarthWall
+  m_EditorClassIdentifier: 
+  target: {fileID: 4599990195964176096, guid: f60722f1dfe81a14cb613904a2606fe5, type: 3}
+  effects: []

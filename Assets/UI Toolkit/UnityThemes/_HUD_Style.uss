@@ -1,0 +1,108 @@
+/* Main Container - fill the screen but keep top items together */
+.hud-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    padding: 40px;
+    flex-direction: column;
+    justify-content: flex-start; /* keep HP + Spell together at the top */
+    align-items: flex-start;
+}
+
+/* Layout Rows */
+.row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px; /* smaller gap so Spell stays close to HP */
+}
+
+.rune-section {
+    margin-left: 20px;
+    margin-top: auto; /* pushes this section to the bottom of the container */
+}
+
+/* Labels - larger */
+.label-main {
+    font-size: 48px;
+    color: white;
+    margin-right: 25px;
+    -unity-font-style: bold;
+}
+
+/* Progress Bar Customization - larger bar */
+.hp-bar {
+    width: 520px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 4px;
+    border-color: white;
+}
+.hp-bar .unity-progress-bar__progress {
+    background-color: #4CAF50;
+}
+
+/* Icon Layout */
+.icon-row {
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Circle base (reverted to circles) */
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* circle */
+    margin-right: 16px;
+    border-width: 4px;
+    border-color: white;
+}
+
+/* Filled / empty variations */
+.icon-filled {
+    background-color: #555;
+}
+
+.icon-empty {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Rune icon (circle) */
+.icon-rune {
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+/* New: rune item wrapper to place number below each icon */
+.rune-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 16px;
+}
+
+/* Rune number label (below icon) */
+.rune-count {
+    margin-top: 8px;
+    font-size: 28px;
+    color: white;
+    -unity-font-style: bold;
+}
+
+/* Hide inner rune-text if still present */
+.rune-text { display: none; }
+
+/* Arrow Indicator - bigger arrows */
+.arrow-indicator {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-char {
+    color: white;
+    font-size: 36px;
+    min-height: 20px;
+}

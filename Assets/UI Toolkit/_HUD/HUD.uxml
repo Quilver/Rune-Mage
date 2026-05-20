@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/_HUD_Style.uss?fileID=7433441132597879392&amp;guid=2026b7f69d39c8f429cff5dd9103427b&amp;type=3#_HUD_Style" />
+    <ui:VisualElement data-source="project://database/Assets/Game%20Assets/Player/Level%201.asset?fileID=11400000&amp;guid=046a2831747646e4a892faf50abd6a37&amp;type=2#Level 1" data-source-type="PlayerData, Assembly-CSharp" class="hud-container">
+        <ui:VisualElement name="HP_Section" class="row">
+            <ui:Label text="HP" class="label-main" />
+            <ui:ProgressBar value="15" low-value="0" high-value="100" name="HP_Bar" class="hp-bar">
+                <Bindings>
+                    <ui:DataBinding property="highValue" data-source-path="maxHealth" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:ProgressBar>
+        </ui:VisualElement>
+        <ui:VisualElement name="Spell_Section" class="row">
+            <ui:Label text="Spell" class="label-main" />
+            <ui:VisualElement name="Spell_Buffer" class="icon-row">
+                <ui:VisualElement name="spellSlot" class="circle icon-empty" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/_HUD/Wind.png?fileID=4578591244471777430&amp;guid=d0de315ab0b07154f85d64256c3a93eb&amp;type=3#Wind_0&quot;);" />
+                <ui:VisualElement name="spellSlot" class="circle icon-empty" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Rune_Section" class="rune-section">
+            <ui:Label text="Runes" class="label-main" />
+            <ui:VisualElement class="row">
+                <ui:VisualElement name="Runes" class="icon-row">
+                    <ui:VisualElement name="Wind" data-source="project://database/Assets/Game%20Assets/Player/Wind.asset?fileID=11400000&amp;guid=356c7edbafe10484da636be0049d14b5&amp;type=2#Wind" class="circle icon-rune" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/_HUD/Wind.png?fileID=4578591244471777430&amp;guid=d0de315ab0b07154f85d64256c3a93eb&amp;type=3#Wind_0&quot;);">
+                        <ui:Label text="&#10;&#10;19/24" data-source-path="UsesLeft" class="rune-uses" style="font-size: 32px; color: rgb(255, 250, 250); bottom: auto;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Fire" class="circle icon-rune" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/_HUD/Fire.png?fileID=1098286324429101383&amp;guid=daec4ead0438c934b909fde11eee54b7&amp;type=3#Fire_0&quot;);">
+                        <ui:Label text="&#10;&#10;14/16" class="rune-uses" style="font-size: 32px; color: rgb(255, 250, 250);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Earth" class="circle icon-rune" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/_HUD/Earth.png?fileID=6423806749927177598&amp;guid=5e8f960860f794b48b57cb9eee002846&amp;type=3#Earth_0&quot;);">
+                        <ui:Label text="&#10;&#10;7/16" class="rune-uses" style="font-size: 32px; color: rgb(255, 250, 250);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Lightning" class="circle icon-rune" style="background-image: url(&quot;project://database/Assets/UI%20Toolkit/_HUD/Lightning.png?fileID=-894095381526335850&amp;guid=cad92806e47335b49920efa4106c6307&amp;type=3#Lightning_0&quot;); font-size: 37px; color: rgb(255, 250, 250);">
+                        <ui:Label text="&#10;&#10;7/7" class="rune-uses" style="font-size: 32px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
