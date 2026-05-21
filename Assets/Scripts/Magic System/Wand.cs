@@ -7,7 +7,7 @@ namespace MagicSystem
     public class Wand : MonoBehaviour
     {
         [SerializeField]
-        InputActionReference lookControl;
+        InputActionReference lookControl, mouseLook;
         [SerializeField, Range(0.3f, 2)] float radius;
         public Vector2 lookDirection;
         [SerializeField] ISpellTarget spell;
@@ -20,10 +20,12 @@ namespace MagicSystem
         private void OnEnable()
         {
             lookControl.action.Enable();
+            mouseLook.action.Enable();
         }
         private void OnDisable()
         {
             lookControl.action.Disable();
+            mouseLook.action.Disable();
         }
         // Update is called once per frame
         void FixedUpdate()
@@ -31,6 +33,13 @@ namespace MagicSystem
             if (lookControl.action.WasPerformedThisFrame())
             {
                 lookDirection = lookControl.action.ReadValue<Vector2>();
+                Look();
+            }
+            if(mouseLook.action.WasPerformedThisFrame())
+            {
+                Vector2 mousePos = mouseLook.action.ReadValue<Vector2>();
+                Vector3 worldMousePos = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, 0));
+                lookDirection = worldMousePos - transform.position;
                 Look();
             }
         }

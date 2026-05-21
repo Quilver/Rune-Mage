@@ -8,6 +8,7 @@ public class Push : ISpellEffect
     {
         Debug.Log($"Push applied to {target.name} by {caster.name}");
         var rb = target.GetComponent<Rigidbody2D>();
+        if (rb == null) return;
         rb.AddForce((target.transform.position - caster.transform.position).normalized * rb.mass * pushForce, ForceMode2D.Force);
     }
 }
