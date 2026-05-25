@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2395261707344632441}
   - component: {fileID: 8978856318918810582}
   - component: {fileID: 70102722033563015}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,6 +52,9 @@ MonoBehaviour:
   speed: 3
   angle: 45
   rayCount: 12
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!33 &2395261707344632441
 MeshFilter:
   m_ObjectHideFlags: 0

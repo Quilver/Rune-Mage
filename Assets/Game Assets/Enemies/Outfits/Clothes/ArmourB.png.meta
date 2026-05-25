@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 65d5b48139209724685b33f3e0701d6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -365434688788937744
+    second: outfit-1-shoulder-pad_0
+  - first:
+      213: -6583899005360095726
+    second: outfit-1-shoulder-pad_1
+  - first:
+      213: -8451309738629609347
+    second: outfit-1-shoulder-pad_2
+  - first:
+      213: -1214019450027511736
+    second: outfit-1-shoulder-pad_3
+  - first:
+      213: -9175549736747408
+    second: outfit-1-shoulder-pad_4
+  - first:
+      213: 1423024884819675573
+    second: outfit-1-shoulder-pad_5
+  - first:
+      213: 2339933225987308461
+    second: outfit-1-shoulder-pad_6
+  - first:
+      213: 6909845839948871837
+    second: outfit-1-shoulder-pad_7
+  - first:
+      213: 8239320761945736107
+    second: outfit-1-shoulder-pad_8
+  - first:
+      213: -2190899943025882621
+    second: outfit-1-shoulder-pad_9
+  - first:
+      213: 7325752036399548192
+    second: outfit-1-shoulder-pad_10
+  - first:
+      213: 672917934663191769
+    second: outfit-1-shoulder-pad_11
+  - first:
+      213: 9112072154136992590
+    second: outfit-1-shoulder-pad_12
+  - first:
+      213: 1745560674086369164
+    second: outfit-1-shoulder-pad_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_0
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 521
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f341223617bdeaf0800000000000000
+      internalID: -365434688788937744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 532
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eb674dcba41a4a0800000000000000
+      internalID: -6583899005360095726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_2
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 542
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78ce26d19ae6ba80800000000000000
+      internalID: -8451309738629609347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_3
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 415
+        width: 161
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840f1ba0ebfe62fe0800000000000000
+      internalID: -1214019450027511736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 473
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e7259d2e66fdff0800000000000000
+      internalID: -9175549736747408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_5
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 460
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9c73ed7999fb310800000000000000
+      internalID: 1423024884819675573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_6
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 427
+        width: 32
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab7b1d1fdc197020800000000000000
+      internalID: 2339933225987308461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_7
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 340
+        width: 65
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98fcd67e24b4ef50800000000000000
+      internalID: 6909845839948871837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_8
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 405
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3c6464492f75270800000000000000
+      internalID: 8239320761945736107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 408
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ac4851c1c5891e0800000000000000
+      internalID: -2190899943025882621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 306
+        width: 39
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0278032e9ac4aa560800000000000000
+      internalID: 7325752036399548192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_11
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 338
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcc69adb4fa65900800000000000000
+      internalID: 672917934663191769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_12
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 324
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b501ba855947e70800000000000000
+      internalID: 9112072154136992590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outfit-1-shoulder-pad_13
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 250
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c873fc84f2a793810800000000000000
+      internalID: 1745560674086369164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      outfit-1-shoulder-pad_0: -365434688788937744
+      outfit-1-shoulder-pad_1: -6583899005360095726
+      outfit-1-shoulder-pad_10: 7325752036399548192
+      outfit-1-shoulder-pad_11: 672917934663191769
+      outfit-1-shoulder-pad_12: 9112072154136992590
+      outfit-1-shoulder-pad_13: 1745560674086369164
+      outfit-1-shoulder-pad_2: -8451309738629609347
+      outfit-1-shoulder-pad_3: -1214019450027511736
+      outfit-1-shoulder-pad_4: -9175549736747408
+      outfit-1-shoulder-pad_5: 1423024884819675573
+      outfit-1-shoulder-pad_6: 2339933225987308461
+      outfit-1-shoulder-pad_7: 6909845839948871837
+      outfit-1-shoulder-pad_8: 8239320761945736107
+      outfit-1-shoulder-pad_9: -2190899943025882621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

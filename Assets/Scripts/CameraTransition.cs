@@ -1,4 +1,6 @@
+using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -12,33 +14,54 @@ public class CameraTransition : MonoBehaviour
         public Vector3 TransitPoint;
         public GameObject cameraPos;
         public float distanceToPlayer;
+        public List<EnemyAI> enemyAI;
+        
     }
     [SerializeField]
     TransitionPoint[] hubPoints, roomPoints;
     [SerializeField] GameObject player;
     [SerializeField] AnimationCurve transitionCurve;
-    GameObject currentRoom, nextRoom;
+    TransitionPoint currentRoom, nextRoom;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public static CameraTransition instance;
     void Start()
     {
-        currentRoom = hubPoints[0].cameraPos;
+        instance = this;
+        currentRoom = hubPoints[0];
 
+    }
+    public void Reset()
+    {
+        Exit(currentRoom);
+        currentRoom = hubPoints[0];
+        Camera.main.transform.position = currentRoom.cameraPos.transform.position;
     }
     IEnumerator Transition()
     {
-        var currentRoomPos = currentRoom.transform.position;
-        var nextRoomPos = nextRoom.transform.position;
+        Exit(currentRoom);
+        Enter(nextRoom);
+        var currentRoomPos = currentRoom;
+        var nextRoomPos = nextRoom;
         float t = 0;
         while (t < 1)
         {
-            Debug.Log("Moving");
             t += Time.deltaTime;
-            cam.position = Vector3.Lerp(currentRoomPos, nextRoomPos, transitionCurve.Evaluate(t));
+            cam.position = Vector3.Lerp(currentRoomPos.cameraPos.transform.position, nextRoomPos.cameraPos.transform.position, transitionCurve.Evaluate(t));
             yield return new WaitForFixedUpdate();
         }
-        cam.position = nextRoomPos;
+        cam.position = nextRoomPos.cameraPos.transform.position;
 
 
+    }
+    public void Enter(TransitionPoint room)
+    {
+        foreach (EnemyAI enemy in room.enemyAI) 
+            if(enemy)enemy.enabled = true;
+    }
+    public void Exit(TransitionPoint room)
+    {
+        foreach (EnemyAI enemy in room.enemyAI)
+            if (enemy) enemy.enabled = false;
     }
     void GetTransition(TransitionPoint[] points)
     {
@@ -46,18 +69,17 @@ public class CameraTransition : MonoBehaviour
         {
             if (Vector3.Distance(player.transform.position, point.TransitPoint) < point.distanceToPlayer)
             {
-                nextRoom = point.cameraPos;
+                nextRoom = point;
                 //StopCoroutine(Transition());
                 StartCoroutine(Transition());
-                Debug.Log("Transitioning to " + nextRoom.name);
-                currentRoom = point.cameraPos;
+                currentRoom = point;
             }
         }
     }
 
     void Update()
     {
-        if (currentRoom != hubPoints[0].cameraPos) GetTransition(hubPoints);
+        if (currentRoom.cameraPos != hubPoints[0].cameraPos) GetTransition(hubPoints);
         else GetTransition(roomPoints);
     }
 

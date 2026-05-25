@@ -12,10 +12,12 @@ namespace MagicSystem.Target
         [SerializeField, Range(2, 20)] int rayCount = 12;
         Mesh mesh;
         Transform caster;
+        [SerializeField]
+        LayerMask layerMask;
         Vector3 forward, position;
         void Start()
         {
-            
+
             //StartCoroutine(ScaleAnimation());
         }
         IEnumerator ScaleAnimation()
@@ -28,7 +30,7 @@ namespace MagicSystem.Target
             float elapsed = 0f;
             while (elapsed < duration)
             {
-                forward = (caster.position- caster.parent.position).normalized;
+                forward = (caster.position - caster.parent.position).normalized;
                 position = caster.position;
 
                 transform.GetComponentInChildren<ParticleSystem>().transform.position = position;
@@ -43,6 +45,7 @@ namespace MagicSystem.Target
                 yield return null; // Wait for the next frame
             }
             gameObject.SetActive(false);
+            //OnRelease();
         }
         List<Transform> GetTargets(float range)
         {
@@ -51,7 +54,7 @@ namespace MagicSystem.Target
             {
                 float angle = -this.angle + (i * (this.angle * 2 / rayCount));
                 Vector3 direction = RayDir(angle, forward);
-                RaycastHit2D hit = Physics2D.Raycast(position, direction, range, LayerMask.GetMask("Default"));
+                RaycastHit2D hit = Physics2D.Raycast(position, direction, range, layerMask);
                 if (hit.collider != null && !targets.Contains(hit.collider.transform))
                 {
                     targets.Add(hit.collider.transform);
@@ -78,7 +81,7 @@ namespace MagicSystem.Target
 
             for (int i = 0; i < rayCount; i++)
             {
-                vertices[vertexIndex] = RayDir(-angle+(i * (angle * 2 / rayCount)), transform.up);
+                vertices[vertexIndex] = RayDir(-angle + (i * (angle * 2 / rayCount)), transform.up);
                 if (i > 0)
                 {
                     triangles[triangleIndex] = 0;
@@ -94,14 +97,14 @@ namespace MagicSystem.Target
             mesh.triangles = triangles;
             return mesh;
         }
-        
-        
+
+
         Vector3[] UpdateMeshVertices(Mesh mesh, float range)
         {
-            
+
             Vector3[] verts = mesh.vertices;
             verts[0] = position;
-            for (int i = 1; i < rayCount+1; i++)
+            for (int i = 1; i < rayCount + 1; i++)
             {
                 float angle = -this.angle + (i * (this.angle * 2 / rayCount));
                 Vector3 direction = RayDir(angle, forward);
@@ -114,7 +117,7 @@ namespace MagicSystem.Target
                 else
                 {
                     // local-space point at distance 'range' along the local direction
-                    verts[i] = position+direction * range;
+                    verts[i] = position + direction * range;
                 }
             }
             return verts;
@@ -122,7 +125,7 @@ namespace MagicSystem.Target
 
 
         #endregion
-        
+
         public override void CastSpell(Vector2 position, Vector2 direction, GameObject caster)
         {
             this.caster = caster.transform.GetComponentInChildren<Wand>().transform;
@@ -130,7 +133,16 @@ namespace MagicSystem.Target
             transform.rotation = Quaternion.identity;
             forward = direction;
             this.position = position;
+            caster.GetComponent<PlayerControls>().onSpellRelease = OnRelease;
             StartCoroutine(ScaleAnimation());
+        }
+        void OnRelease()
+        {
+            if (gameObject == null) return;
+            //Debug.Log("Spell Released");
+            //caster.gameObject.GetComponent<PlayerControls>().onSpellRelease -= OnRelease;
+            StopAllCoroutines();
+            Destroy(gameObject);
         }
     }
 }

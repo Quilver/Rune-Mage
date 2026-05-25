@@ -37,3 +37,11 @@ MonoBehaviour:
     priority: 0
     requirements: 03000000
     projected: 1
+  - spell: {fileID: 11400000, guid: b605dd26ffb10f74e9e622e0987e66e5, type: 2}
+    priority: 0
+    requirements: 03000000
+    projected: 0
+  - spell: {fileID: 11400000, guid: a9d3c494b2fd3ee409236acd0b46b30d, type: 2}
+    priority: 0
+    requirements: 01000000
+    projected: 0

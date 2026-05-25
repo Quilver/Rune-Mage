@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 12e11ed6463ea7144b6e61c8ea9092dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1411294285324496907
+    second: Player character mouse sprite sheet2_0
+  - first:
+      213: -5684505477816396103
+    second: Player character mouse sprite sheet2_1
+  - first:
+      213: -3826641936993099603
+    second: Player character mouse sprite sheet2_2
+  - first:
+      213: 8609938661915945686
+    second: Player character mouse sprite sheet2_3
+  - first:
+      213: 935163079858977411
+    second: Player character mouse sprite sheet2_4
+  - first:
+      213: -1993629102158036880
+    second: Player character mouse sprite sheet2_5
+  - first:
+      213: 3111620893428503611
+    second: Player character mouse sprite sheet2_6
+  - first:
+      213: 5331252916710417626
+    second: Player character mouse sprite sheet2_7
+  - first:
+      213: 1583731129548017518
+    second: Player character mouse sprite sheet2_8
+  - first:
+      213: 6400601641821894668
+    second: Player character mouse sprite sheet2_9
+  - first:
+      213: -3986814113998064551
+    second: Player character mouse sprite sheet2_10
+  - first:
+      213: -406164145954230593
+    second: Player character mouse sprite sheet2_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_0
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 659
+        width: 68
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffc1b923531a6ce0800000000000000
+      internalID: -1411294285324496907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_1
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 706
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6ddfeb2649c11b0800000000000000
+      internalID: -5684505477816396103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_2
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 719
+        width: 34
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0e9e6ce6905eac0800000000000000
+      internalID: -3826641936993099603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_3
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 663
+        width: 46
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dae6697895ac7770800000000000000
+      internalID: 8609938661915945686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_4
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 616
+        width: 46
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38afd0ecddd5afc00800000000000000
+      internalID: 935163079858977411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 560
+        width: 41
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0704dffe4e43554e0800000000000000
+      internalID: -1993629102158036880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_6
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 646
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b345d7c67b2be2b20800000000000000
+      internalID: 3111620893428503611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_7
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 646
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad42a44184a6cf940800000000000000
+      internalID: 5331252916710417626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 149
+        width: 470
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f0074421b8af510800000000000000
+      internalID: 1583731129548017518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 606
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c087399084183d850800000000000000
+      internalID: 6400601641821894668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_10
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 141
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954b1a5bfadfba8c0800000000000000
+      internalID: -3986814113998064551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player character mouse sprite sheet2_11
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 142
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbee5e77cd30d5af0800000000000000
+      internalID: -406164145954230593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Player character mouse sprite sheet2_0: -1411294285324496907
+      Player character mouse sprite sheet2_1: -5684505477816396103
+      Player character mouse sprite sheet2_10: -3986814113998064551
+      Player character mouse sprite sheet2_11: -406164145954230593
+      Player character mouse sprite sheet2_2: -3826641936993099603
+      Player character mouse sprite sheet2_3: 8609938661915945686
+      Player character mouse sprite sheet2_4: 935163079858977411
+      Player character mouse sprite sheet2_5: -1993629102158036880
+      Player character mouse sprite sheet2_6: 3111620893428503611
+      Player character mouse sprite sheet2_7: 5331252916710417626
+      Player character mouse sprite sheet2_8: 1583731129548017518
+      Player character mouse sprite sheet2_9: 6400601641821894668
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

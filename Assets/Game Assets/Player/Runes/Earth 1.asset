@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6d7a9e47d335a449a22062426a7105, type: 3}
+  m_Name: Earth 1
+  m_EditorClassIdentifier: 
+  runeIcon: {fileID: 21300000, guid: b6b291e6d000c9240815ae7f1589567f, type: 3}
+  runeType: 2
+  MaxUses: 12
+  UsesLeft: 12
+  unlocked: 1

@@ -13,6 +13,7 @@ TagManager:
   - UI
   - NPC
   - Feet
+  - Spells
   - 
   - 
   - 
@@ -35,8 +36,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - HUD
   m_SortingLayers:
   - name: Default
     uniqueID: 0
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Effects 2
     uniqueID: 3830105273
+    locked: 0
+  - name: HUD
+    uniqueID: 1328796219
     locked: 0
   m_RenderingLayers:
   - Default

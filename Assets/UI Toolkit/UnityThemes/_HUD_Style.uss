@@ -39,9 +39,15 @@
     background-color: rgba(0, 0, 0, 0.5);
     border-width: 4px;
     border-color: white;
+    progress-background: url('Assets/UI Toolkit/UI Assets/hp bar/white-bar.png');
+    progress-foreground: url('Assets/UI Toolkit/UI Assets/hp bar/green-bar.png');
+
 }
 .hp-bar .unity-progress-bar__progress {
-    background-color: #4CAF50;
+    background-image:url('Assets/UI Toolkit/UI Assets/hp bar/green-bar.png');
+}
+.hp-bar 	.unity-progress-bar__background{
+    background-image:url('Assets/UI Toolkit/UI Assets/hp bar/white-bar.png');
 }
 
 /* Icon Layout */

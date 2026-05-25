@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7b916d2a920e947b925ad5aad730c7, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  maxHealth: 30
+  maxRuneSlots: 1
+  windRune: {fileID: 11400000, guid: 90678ac0e38821a438af5ab2f97cabe9, type: 2}
+  fireRune: {fileID: 11400000, guid: b2eb6ca901c5689479eae042d8d4f456, type: 2}
+  earthRune: {fileID: 11400000, guid: 3198ab8296eee82489c9bd95e074d3c8, type: 2}
+  lightningRune: {fileID: 11400000, guid: b95f22acf0c0d3b4793a5f66f621d233, type: 2}

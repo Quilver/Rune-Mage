@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b7b916d2a920e947b925ad5aad730c7, type: 3}
   m_Name: Level 1
   m_EditorClassIdentifier: 
-  maxHealth: 18
+  maxHealth: 25
   maxRuneSlots: 1
   windRune: {fileID: 11400000, guid: 356c7edbafe10484da636be0049d14b5, type: 2}
   fireRune: {fileID: 11400000, guid: 2354fe1a41a01e6498211a11f2c8aad6, type: 2}

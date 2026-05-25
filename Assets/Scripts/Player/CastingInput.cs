@@ -21,7 +21,9 @@ public class CastingInput : MonoBehaviour
         earth.action.performed += CastEarth;
         lightning.action.performed += CastLightning;
         projectionCast.action.performed += ProjectionCast;
+        projectionCast.action.canceled += ReleaseCast;
         internalCast.action.performed += InternalCast;
+        internalCast.action.canceled += ReleaseCast;
     }
     void OnDisable()
     {
@@ -30,26 +32,31 @@ public class CastingInput : MonoBehaviour
         earth.action.performed -= CastEarth;
         lightning.action.performed -= CastLightning;
         projectionCast.action.performed -= ProjectionCast;
+        projectionCast.action.canceled -= ReleaseCast;
         internalCast.action.performed -= InternalCast;
+        internalCast.action.canceled -= ReleaseCast;
     }
 
 
     void CastRune(Rune rune) { 
-        Debug.Log($"Cast {rune}");
-        PlayerControls.AddRune(rune);
+        //Debug.Log($"Cast {rune}");
+        if(rune.unlocked) 
+            PlayerControls.AddRune(rune);
         
     }
     void ProjectionCast(InputAction.CallbackContext context)
     {
-        Debug.Log("Projection Cast");
         PlayerControls.CastSpell(true);
     }
     void InternalCast(InputAction.CallbackContext context)
     {
-        Debug.Log("Internal Cast");
         PlayerControls.CastSpell(false);
     }
-
+    void ReleaseCast(InputAction.CallbackContext context)
+    {
+        PlayerControls.CancelSpell();
+        // Implement logic to cancel projection cast if needed
+    }
     void CastWind(InputAction.CallbackContext context)
     {
         if(PlayerControls.wind.UsesLeft > 0)

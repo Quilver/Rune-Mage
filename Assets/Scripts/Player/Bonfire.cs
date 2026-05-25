@@ -20,12 +20,13 @@ public class Bonfire : MonoBehaviour
         while (t < 1)
         {
             t += Time.deltaTime;
-            GetComponent<Light2D>().intensity = Mathf.Lerp(3, 2.5f, t);
+            GetComponent<Light2D>().intensity = Mathf.Lerp(4, 1.5f, t);
             yield return null;
         }
     }
     public void Rest(PlayerControls player)
     {
+        player.Reset();
         StartCoroutine(RestCoroutine());
     }
 }

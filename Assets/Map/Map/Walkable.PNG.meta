@@ -1,0 +1,3094 @@
+fileFormatVersion: 2
+guid: 90a34d9b5e59e0645add518f346c6c6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3178791801905728931
+    second: Walkable_0
+  - first:
+      213: -4874522889529349488
+    second: Walkable_1
+  - first:
+      213: 7797089818068505296
+    second: Walkable_2
+  - first:
+      213: 3654454278971744283
+    second: Walkable_3
+  - first:
+      213: 5849430080450077593
+    second: Walkable_4
+  - first:
+      213: -7749630800391585980
+    second: Walkable_5
+  - first:
+      213: -4470180216249570217
+    second: Walkable_6
+  - first:
+      213: 3673413836606125908
+    second: Walkable_7
+  - first:
+      213: -2501486867815125295
+    second: Walkable_8
+  - first:
+      213: 6996427781920168047
+    second: Walkable_9
+  - first:
+      213: 2301202724669302255
+    second: Walkable_10
+  - first:
+      213: 4376557426087645131
+    second: Walkable_11
+  - first:
+      213: 2946341789331429359
+    second: Walkable_12
+  - first:
+      213: 1233983631994959027
+    second: Walkable_13
+  - first:
+      213: -4290578652949971639
+    second: Walkable_14
+  - first:
+      213: 1243437087443917215
+    second: Walkable_15
+  - first:
+      213: -8195573139586191900
+    second: Walkable_16
+  - first:
+      213: 534355220728115406
+    second: Walkable_17
+  - first:
+      213: 3580426369069947780
+    second: Walkable_18
+  - first:
+      213: 3022553390806478908
+    second: Walkable_19
+  - first:
+      213: 4450900105103891150
+    second: Walkable_20
+  - first:
+      213: 7475319070127979606
+    second: Walkable_21
+  - first:
+      213: -4737218462377777389
+    second: Walkable_22
+  - first:
+      213: -4607387561410165403
+    second: Walkable_23
+  - first:
+      213: 1238137379285965978
+    second: Walkable_24
+  - first:
+      213: 5798297955087829559
+    second: Walkable_25
+  - first:
+      213: -7790193423039605400
+    second: Walkable_26
+  - first:
+      213: 723212076294663472
+    second: Walkable_27
+  - first:
+      213: -58549536712468032
+    second: Walkable_28
+  - first:
+      213: -5046990715840760435
+    second: Walkable_29
+  - first:
+      213: 3659144415423382769
+    second: Walkable_30
+  - first:
+      213: 4168551487063872189
+    second: Walkable_31
+  - first:
+      213: -3558968157762082505
+    second: Walkable_32
+  - first:
+      213: 7986708529466421809
+    second: Walkable_33
+  - first:
+      213: 1146378113820484539
+    second: Walkable_34
+  - first:
+      213: 2298621937037871371
+    second: Walkable_35
+  - first:
+      213: 6694478526734813374
+    second: Walkable_36
+  - first:
+      213: 6981658737167200330
+    second: Walkable_37
+  - first:
+      213: -1745082984818444171
+    second: Walkable_38
+  - first:
+      213: -3208065412049735052
+    second: Walkable_39
+  - first:
+      213: 4882478333720448423
+    second: Walkable_40
+  - first:
+      213: 4721574801830419641
+    second: Walkable_41
+  - first:
+      213: -3574860776083662514
+    second: Walkable_42
+  - first:
+      213: 5837387878809380976
+    second: Walkable_43
+  - first:
+      213: 6572344605467449596
+    second: Walkable_44
+  - first:
+      213: -8825792982429059032
+    second: Walkable_45
+  - first:
+      213: -469411109318024445
+    second: Walkable_46
+  - first:
+      213: 4519164029339505265
+    second: Walkable_47
+  - first:
+      213: -302389152379616637
+    second: Walkable_48
+  - first:
+      213: -466085208415618906
+    second: Walkable_49
+  - first:
+      213: -7617615142427017545
+    second: Walkable_50
+  - first:
+      213: 5239113065212004659
+    second: Walkable_51
+  - first:
+      213: -1578828830711812145
+    second: Walkable_52
+  - first:
+      213: 5047571097924851346
+    second: Walkable_53
+  - first:
+      213: -3262730656475800662
+    second: Walkable_54
+  - first:
+      213: 8504346557777655839
+    second: Walkable_55
+  - first:
+      213: -2002514963487068777
+    second: Walkable_56
+  - first:
+      213: 4151674785062178668
+    second: Walkable_57
+  - first:
+      213: -5024071211556926749
+    second: Walkable_58
+  - first:
+      213: -5730318422079597667
+    second: Walkable_59
+  - first:
+      213: -6826294601514050065
+    second: Walkable_60
+  - first:
+      213: 464373402262727417
+    second: Walkable_61
+  - first:
+      213: -8847868557141522822
+    second: Walkable_62
+  - first:
+      213: -6636982018766245962
+    second: Walkable_63
+  - first:
+      213: 6052246396549570621
+    second: Walkable_64
+  - first:
+      213: -2047299367802579085
+    second: Walkable_65
+  - first:
+      213: 6696323578679747472
+    second: Walkable_66
+  - first:
+      213: 4903581396064270196
+    second: Walkable_67
+  - first:
+      213: 3485843612329930852
+    second: Walkable_68
+  - first:
+      213: -6549810774534219431
+    second: Walkable_69
+  - first:
+      213: -6630951204904969475
+    second: Walkable_70
+  - first:
+      213: 2394946704703637125
+    second: Walkable_71
+  - first:
+      213: -6785313331987489980
+    second: Walkable_72
+  - first:
+      213: -6225400168167133667
+    second: Walkable_73
+  - first:
+      213: 5124828113922495975
+    second: Walkable_74
+  - first:
+      213: 5687676459146240054
+    second: Walkable_75
+  - first:
+      213: -7157239040923767334
+    second: Walkable_76
+  - first:
+      213: -8989994186405395465
+    second: Walkable_77
+  - first:
+      213: -7429240163839410895
+    second: Walkable_78
+  - first:
+      213: -4469698650038209874
+    second: Walkable_79
+  - first:
+      213: 8822953326058276472
+    second: Walkable_80
+  - first:
+      213: -139058609014884220
+    second: Walkable_81
+  - first:
+      213: -6987122478398801548
+    second: Walkable_82
+  - first:
+      213: -8166562150152389711
+    second: Walkable_83
+  - first:
+      213: 2011011909726066070
+    second: Walkable_84
+  - first:
+      213: 6099088807868123285
+    second: Walkable_85
+  - first:
+      213: 2329456996430591580
+    second: Walkable_86
+  - first:
+      213: 8003076914443083588
+    second: Walkable_87
+  - first:
+      213: -4796501944189196156
+    second: Walkable_88
+  - first:
+      213: -2703838812163078331
+    second: Walkable_89
+  - first:
+      213: -9025937908212079243
+    second: Walkable_90
+  - first:
+      213: 4043098516552731927
+    second: Walkable_91
+  - first:
+      213: -8960613910299892655
+    second: Walkable_92
+  - first:
+      213: 4688409162712924537
+    second: Walkable_93
+  - first:
+      213: 5278419069150592210
+    second: Walkable_94
+  - first:
+      213: 7419660510659905869
+    second: Walkable_95
+  - first:
+      213: -2129664527748841448
+    second: Walkable_96
+  - first:
+      213: -4594603835177253444
+    second: Walkable_97
+  - first:
+      213: 7897920388892080907
+    second: Walkable_98
+  - first:
+      213: 7732809788587674724
+    second: Walkable_99
+  - first:
+      213: 1754282198719007198
+    second: Walkable_100
+  - first:
+      213: -7042048413673761238
+    second: Walkable_101
+  - first:
+      213: 503588268337087977
+    second: Walkable_102
+  - first:
+      213: -1330451111052515746
+    second: Walkable_103
+  - first:
+      213: 6660951485775159675
+    second: Walkable_104
+  - first:
+      213: 8550213967129946842
+    second: Walkable_105
+  - first:
+      213: -5880985960268594331
+    second: Walkable_106
+  - first:
+      213: 4484168667289294466
+    second: Walkable_107
+  - first:
+      213: 6819285637772425536
+    second: Walkable_108
+  - first:
+      213: 922634796244435927
+    second: Walkable_109
+  - first:
+      213: 4381925129480878980
+    second: Walkable_110
+  - first:
+      213: 3850989680410557062
+    second: Walkable_111
+  - first:
+      213: -7091214528647076173
+    second: Walkable_112
+  - first:
+      213: -6495337930717682905
+    second: Walkable_113
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walkable_0
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 2871
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adc3874d465d1c20800000000000000
+      internalID: 3178791801905728931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_1
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 2863
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09aa71022473a5cb0800000000000000
+      internalID: -4874522889529349488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_2
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 2843
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2d9c7f0e3d43c60800000000000000
+      internalID: 7797089818068505296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 209
+        width: 3715
+        height: 2632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10640afdca37b230800000000000000
+      internalID: 3654454278971744283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_4
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 2834
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99326b3aaa95d2150800000000000000
+      internalID: 5849430080450077593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_5
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 2826
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fbb3aa8d7c37490800000000000000
+      internalID: -7749630800391585980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_6
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 2811
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c277007cab6f1c0800000000000000
+      internalID: -4470180216249570217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_7
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 2806
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457b9ebfb669af230800000000000000
+      internalID: 3673413836606125908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_8
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 2799
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de239972fee84dd0800000000000000
+      internalID: -2501486867815125295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_9
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 2802
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68960ebffd481160800000000000000
+      internalID: 6996427781920168047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_10
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2803
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe523109fa38fef10800000000000000
+      internalID: 2301202724669302255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_11
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 2796
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf4d018ac7acbc30800000000000000
+      internalID: 4376557426087645131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_12
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 2800
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe71dfb3f3283e820800000000000000
+      internalID: 2946341789331429359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_13
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 2804
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4b4bb439dff1110800000000000000
+      internalID: 1233983631994959027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_14
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 2801
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94dfa06927dc474c0800000000000000
+      internalID: -4290578652949971639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_15
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 220
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9914a96173914110800000000000000
+      internalID: 1243437087443917215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_16
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 220
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed6b3cc6a9734e80800000000000000
+      internalID: -8195573139586191900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_17
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 214
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0ff5bfd396a6700800000000000000
+      internalID: 534355220728115406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_18
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 223
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b1bd010da30b130800000000000000
+      internalID: 3580426369069947780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_19
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 171
+        width: 86
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c303ca57b4442f920800000000000000
+      internalID: 3022553390806478908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_20
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 171
+        width: 76
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca577f4016c4cd30800000000000000
+      internalID: 4450900105103891150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_21
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 221
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c7ead961badb760800000000000000
+      internalID: 7475319070127979606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_22
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 224
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317ec8648e4024eb0800000000000000
+      internalID: -4737218462377777389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_23
+      rect:
+        serializedVersion: 2
+        x: 3618
+        y: 224
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56508938c654f00c0800000000000000
+      internalID: -4607387561410165403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_24
+      rect:
+        serializedVersion: 2
+        x: 3633
+        y: 220
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c1973f26fbe2110800000000000000
+      internalID: 1238137379285965978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_25
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 224
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a42eaf441b77050800000000000000
+      internalID: 5798297955087829559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_26
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 226
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865d3202b5ca3e390800000000000000
+      internalID: -7790193423039605400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_27
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 223
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03de0d83d8d590a00800000000000000
+      internalID: 723212076294663472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_28
+      rect:
+        serializedVersion: 2
+        x: 3746
+        y: 225
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c95d7ea18dff2ff0800000000000000
+      internalID: -58549536712468032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_29
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 222
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85fd9d1fac75f9b0800000000000000
+      internalID: -5046990715840760435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_30
+      rect:
+        serializedVersion: 2
+        x: 3306
+        y: 213
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f44a277574e7c230800000000000000
+      internalID: 3659144415423382769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_31
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 214
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db25e56dd7ba9d930800000000000000
+      internalID: 4168551487063872189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_32
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 210
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7392aa511510c9ec0800000000000000
+      internalID: -3558968157762082505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_33
+      rect:
+        serializedVersion: 2
+        x: 3389
+        y: 209
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132bd67971d76de60800000000000000
+      internalID: 7986708529466421809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_34
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 216
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb36d8c12d0c8ef00800000000000000
+      internalID: 1146378113820484539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_35
+      rect:
+        serializedVersion: 2
+        x: 3602
+        y: 214
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09001e197856ef10800000000000000
+      internalID: 2298621937037871371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_36
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 207
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8428e40c097ec50800000000000000
+      internalID: 6694478526734813374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_37
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 210
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a407adb81a5d3e060800000000000000
+      internalID: 6981658737167200330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_38
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 211
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578715a654838c7e0800000000000000
+      internalID: -1745082984818444171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_39
+      rect:
+        serializedVersion: 2
+        x: 3697
+        y: 216
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472fe8a3189aa73d0800000000000000
+      internalID: -3208065412049735052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_40
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 209
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adc2f01d2c02c340800000000000000
+      internalID: 4882478333720448423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_41
+      rect:
+        serializedVersion: 2
+        x: 3345
+        y: 154
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc998b2447668140800000000000000
+      internalID: 4721574801830419641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_42
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 198
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e495e08801b836ec0800000000000000
+      internalID: -3574860776083662514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_43
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 207
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078aa941951920150800000000000000
+      internalID: 5837387878809380976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_44
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 205
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8975ec898a53b50800000000000000
+      internalID: 6572344605467449596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_45
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 202
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8283e252b0c748580800000000000000
+      internalID: -8825792982429059032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_46
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 198
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3032a7745115c79f0800000000000000
+      internalID: -469411109318024445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_47
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 204
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172118abdbb47be30800000000000000
+      internalID: 4519164029339505265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_48
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 206
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3824b740ba2bdcbf0800000000000000
+      internalID: -302389152379616637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_49
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 207
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8b25de8f12889f0800000000000000
+      internalID: -466085208415618906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_50
+      rect:
+        serializedVersion: 2
+        x: 3765
+        y: 201
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be3008436bc84690800000000000000
+      internalID: -7617615142427017545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_51
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 199
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339c116239115b840800000000000000
+      internalID: 5239113065212004659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_52
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 195
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfe6402b8fd61ae0800000000000000
+      internalID: -1578828830711812145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_53
+      rect:
+        serializedVersion: 2
+        x: 3414
+        y: 194
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296d65e9b239c0640800000000000000
+      internalID: 5047571097924851346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_54
+      rect:
+        serializedVersion: 2
+        x: 3426
+        y: 194
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab9bfe21c378b2d0800000000000000
+      internalID: -3262730656475800662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_55
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 192
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f183727e222850670800000000000000
+      internalID: 8504346557777655839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_56
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 193
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79de2ff1043a534e0800000000000000
+      internalID: -2002514963487068777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_57
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 193
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fc3927836bd9930800000000000000
+      internalID: 4151674785062178668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_58
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 199
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea02ec0ad9e64ab0800000000000000
+      internalID: -5024071211556926749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_59
+      rect:
+        serializedVersion: 2
+        x: 3692
+        y: 197
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93911271c1d970b0800000000000000
+      internalID: -5730318422079597667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_60
+      rect:
+        serializedVersion: 2
+        x: 3766
+        y: 195
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed96982a312441a0800000000000000
+      internalID: -6826294601514050065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_61
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 192
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa62052629c17600800000000000000
+      internalID: 464373402262727417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_62
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 184
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a764b30ec6e063580800000000000000
+      internalID: -8847868557141522822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_63
+      rect:
+        serializedVersion: 2
+        x: 3614
+        y: 186
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf68c6a404b4e3a0800000000000000
+      internalID: -6636982018766245962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_64
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 191
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30a97f0806edf350800000000000000
+      internalID: 6052246396549570621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_65
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 187
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377de3172188693e0800000000000000
+      internalID: -2047299367802579085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_66
+      rect:
+        serializedVersion: 2
+        x: 3306
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0936740f0de1eec50800000000000000
+      internalID: 6696323578679747472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_67
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 178
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477ff97ac450d0440800000000000000
+      internalID: 4903581396064270196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_68
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 182
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4607d7feb44306030800000000000000
+      internalID: 3485843612329930852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_69
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 181
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9599cdd8dc56a15a0800000000000000
+      internalID: -6549810774534219431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_70
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 138
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfad0bce2012af3a0800000000000000
+      internalID: -6630951204904969475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_71
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 184
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5864ad5c65f8c3120800000000000000
+      internalID: 2394946704703637125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_72
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 147
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bd9258979b5d1a0800000000000000
+      internalID: -6785313331987489980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_73
+      rect:
+        serializedVersion: 2
+        x: 3649
+        y: 180
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1eadb7d78fea99a0800000000000000
+      internalID: -6225400168167133667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_74
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 172
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e51941640c0f1740800000000000000
+      internalID: 5124828113922495975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_75
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 164
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63063c0ea9faeee40800000000000000
+      internalID: 5687676459146240054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_76
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 168
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add6e2153016cac90800000000000000
+      internalID: -7157239040923767334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_77
+      rect:
+        serializedVersion: 2
+        x: 3624
+        y: 172
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3ca722bef1d3380800000000000000
+      internalID: -8989994186405395465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_78
+      rect:
+        serializedVersion: 2
+        x: 3317
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d794bce6906e890800000000000000
+      internalID: -7429240163839410895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_79
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 162
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2fd6f52c078f1c0800000000000000
+      internalID: -4469698650038209874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_80
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 156
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8760e85dd4d617a70800000000000000
+      internalID: 8822953326058276472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_81
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 155
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48835be8ee6f11ef0800000000000000
+      internalID: -139058609014884220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_82
+      rect:
+        serializedVersion: 2
+        x: 3542
+        y: 163
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47974e01021c80f90800000000000000
+      internalID: -6987122478398801548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_83
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 152
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb34042efa8aae80800000000000000
+      internalID: -8166562150152389711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_84
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 148
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6955d465dac88eb10800000000000000
+      internalID: 2011011909726066070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_85
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5984a86d4f054a450800000000000000
+      internalID: 6099088807868123285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_86
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c563bc7dbc4e35020800000000000000
+      internalID: 2329456996430591580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_87
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 140
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f52833d04a01f60800000000000000
+      internalID: 8003076914443083588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_88
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 142
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488e12c05e66f6db0800000000000000
+      internalID: -4796501944189196156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_89
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 138
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5470b170de80a7ad0800000000000000
+      internalID: -2703838812163078331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_90
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 143
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57569404b4d6db280800000000000000
+      internalID: -9025937908212079243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_91
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 147
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dc807fda8fb1830800000000000000
+      internalID: 4043098516552731927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_92
+      rect:
+        serializedVersion: 2
+        x: 3590
+        y: 146
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154a62bbf1185a380800000000000000
+      internalID: -8960613910299892655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_93
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 131
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971c0311b43901140800000000000000
+      internalID: 4688409162712924537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_94
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 137
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc7e585d26b04940800000000000000
+      internalID: 5278419069150592210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_95
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 137
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4980e36cede7f660800000000000000
+      internalID: 7419660510659905869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_96
+      rect:
+        serializedVersion: 2
+        x: 3407
+        y: 135
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810c7cc3569e172e0800000000000000
+      internalID: -2129664527748841448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_97
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 130
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5cc98b720bc30c0800000000000000
+      internalID: -4594603835177253444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_98
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 135
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b3a3cafbc0b9d60800000000000000
+      internalID: 7897920388892080907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_99
+      rect:
+        serializedVersion: 2
+        x: 3589
+        y: 130
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c8e645885705b60800000000000000
+      internalID: 7732809788587674724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_100
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 130
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9007a7d56785810800000000000000
+      internalID: 1754282198719007198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_101
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 125
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a265fd3374e954e90800000000000000
+      internalID: -7042048413673761238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_102
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 129
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e54947acda1df600800000000000000
+      internalID: 503588268337087977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_103
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 126
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56e0b673c9498de0800000000000000
+      internalID: -1330451111052515746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_104
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 127
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b712db7c514707c50800000000000000
+      internalID: 6660951485775159675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_105
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 115
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada2d585d4678a670800000000000000
+      internalID: 8550213967129946842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_106
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 117
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563812d8d6a826ea0800000000000000
+      internalID: -5880985960268594331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_107
+      rect:
+        serializedVersion: 2
+        x: 3604
+        y: 117
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28617be05a7fa3e30800000000000000
+      internalID: 4484168667289294466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_108
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 110
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049395d4828f2ae50800000000000000
+      internalID: 6819285637772425536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_109
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 87
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d38097757bddcc00800000000000000
+      internalID: 922634796244435927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_110
+      rect:
+        serializedVersion: 2
+        x: 3668
+        y: 90
+        width: 57
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bb01750b9bfcc30800000000000000
+      internalID: 4381925129480878980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_111
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 82
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68af09ef5b6717530800000000000000
+      internalID: 3850989680410557062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_112
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 81
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6e6e105f1f69d90800000000000000
+      internalID: -7091214528647076173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkable_113
+      rect:
+        serializedVersion: 2
+        x: 3614
+        y: 67
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723a377d09cebd5a0800000000000000
+      internalID: -6495337930717682905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walkable_0: 3178791801905728931
+      Walkable_1: -4874522889529349488
+      Walkable_10: 2301202724669302255
+      Walkable_100: 1754282198719007198
+      Walkable_101: -7042048413673761238
+      Walkable_102: 503588268337087977
+      Walkable_103: -1330451111052515746
+      Walkable_104: 6660951485775159675
+      Walkable_105: 8550213967129946842
+      Walkable_106: -5880985960268594331
+      Walkable_107: 4484168667289294466
+      Walkable_108: 6819285637772425536
+      Walkable_109: 922634796244435927
+      Walkable_11: 4376557426087645131
+      Walkable_110: 4381925129480878980
+      Walkable_111: 3850989680410557062
+      Walkable_112: -7091214528647076173
+      Walkable_113: -6495337930717682905
+      Walkable_12: 2946341789331429359
+      Walkable_13: 1233983631994959027
+      Walkable_14: -4290578652949971639
+      Walkable_15: 1243437087443917215
+      Walkable_16: -8195573139586191900
+      Walkable_17: 534355220728115406
+      Walkable_18: 3580426369069947780
+      Walkable_19: 3022553390806478908
+      Walkable_2: 7797089818068505296
+      Walkable_20: 4450900105103891150
+      Walkable_21: 7475319070127979606
+      Walkable_22: -4737218462377777389
+      Walkable_23: -4607387561410165403
+      Walkable_24: 1238137379285965978
+      Walkable_25: 5798297955087829559
+      Walkable_26: -7790193423039605400
+      Walkable_27: 723212076294663472
+      Walkable_28: -58549536712468032
+      Walkable_29: -5046990715840760435
+      Walkable_3: 3654454278971744283
+      Walkable_30: 3659144415423382769
+      Walkable_31: 4168551487063872189
+      Walkable_32: -3558968157762082505
+      Walkable_33: 7986708529466421809
+      Walkable_34: 1146378113820484539
+      Walkable_35: 2298621937037871371
+      Walkable_36: 6694478526734813374
+      Walkable_37: 6981658737167200330
+      Walkable_38: -1745082984818444171
+      Walkable_39: -3208065412049735052
+      Walkable_4: 5849430080450077593
+      Walkable_40: 4882478333720448423
+      Walkable_41: 4721574801830419641
+      Walkable_42: -3574860776083662514
+      Walkable_43: 5837387878809380976
+      Walkable_44: 6572344605467449596
+      Walkable_45: -8825792982429059032
+      Walkable_46: -469411109318024445
+      Walkable_47: 4519164029339505265
+      Walkable_48: -302389152379616637
+      Walkable_49: -466085208415618906
+      Walkable_5: -7749630800391585980
+      Walkable_50: -7617615142427017545
+      Walkable_51: 5239113065212004659
+      Walkable_52: -1578828830711812145
+      Walkable_53: 5047571097924851346
+      Walkable_54: -3262730656475800662
+      Walkable_55: 8504346557777655839
+      Walkable_56: -2002514963487068777
+      Walkable_57: 4151674785062178668
+      Walkable_58: -5024071211556926749
+      Walkable_59: -5730318422079597667
+      Walkable_6: -4470180216249570217
+      Walkable_60: -6826294601514050065
+      Walkable_61: 464373402262727417
+      Walkable_62: -8847868557141522822
+      Walkable_63: -6636982018766245962
+      Walkable_64: 6052246396549570621
+      Walkable_65: -2047299367802579085
+      Walkable_66: 6696323578679747472
+      Walkable_67: 4903581396064270196
+      Walkable_68: 3485843612329930852
+      Walkable_69: -6549810774534219431
+      Walkable_7: 3673413836606125908
+      Walkable_70: -6630951204904969475
+      Walkable_71: 2394946704703637125
+      Walkable_72: -6785313331987489980
+      Walkable_73: -6225400168167133667
+      Walkable_74: 5124828113922495975
+      Walkable_75: 5687676459146240054
+      Walkable_76: -7157239040923767334
+      Walkable_77: -8989994186405395465
+      Walkable_78: -7429240163839410895
+      Walkable_79: -4469698650038209874
+      Walkable_8: -2501486867815125295
+      Walkable_80: 8822953326058276472
+      Walkable_81: -139058609014884220
+      Walkable_82: -6987122478398801548
+      Walkable_83: -8166562150152389711
+      Walkable_84: 2011011909726066070
+      Walkable_85: 6099088807868123285
+      Walkable_86: 2329456996430591580
+      Walkable_87: 8003076914443083588
+      Walkable_88: -4796501944189196156
+      Walkable_89: -2703838812163078331
+      Walkable_9: 6996427781920168047
+      Walkable_90: -9025937908212079243
+      Walkable_91: 4043098516552731927
+      Walkable_92: -8960613910299892655
+      Walkable_93: 4688409162712924537
+      Walkable_94: 5278419069150592210
+      Walkable_95: 7419660510659905869
+      Walkable_96: -2129664527748841448
+      Walkable_97: -4594603835177253444
+      Walkable_98: 7897920388892080907
+      Walkable_99: 7732809788587674724
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

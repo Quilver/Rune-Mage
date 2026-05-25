@@ -1,16 +1,12 @@
 using UnityEngine;
 
-public class Stun : MonoBehaviour
+[CreateAssetMenu(fileName = "Stun", menuName = "Scriptable Objects/Spell Effect/Stun")]
+public class Stun : ISpellEffect
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public override void ApplyEffect(GameObject target, GameObject caster)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        HP hp = target.GetComponent<HP>();
+        if(hp==null) return;
+        hp.OnStun?.Invoke();
     }
 }

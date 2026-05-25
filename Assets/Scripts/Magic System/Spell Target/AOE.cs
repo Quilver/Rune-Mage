@@ -9,9 +9,10 @@ namespace MagicSystem.Target
         ParticleSystem particle;
         [SerializeField, Range(0.6f, 10f)] float radius;
         [SerializeField, Range(0.1f, 3f)] float secondsToFullRadius, secondsAtMaxRadius;
-        public AnimationCurve radiusGrowthCurve;
+
         void Start()
         {
+            particle = GetComponent<ParticleSystem>();
             StartCoroutine(ScaleAnimation());
 
 
@@ -21,13 +22,15 @@ namespace MagicSystem.Target
             float elapsed = 0f;
             Vector3 startScale = Vector3.zero;
             Vector3 endScale = new Vector3(radius, radius, 1); // Assuming 2D circle
-
+            //particle.duration=secondsToFullRadius+secondsAtMaxRadius;
+            //particle.startLifetime = secondsToFullRadius + secondsAtMaxRadius;
+            var size = particle.sizeOverLifetime.size;
             while (elapsed < secondsToFullRadius)
             {
                 elapsed += Time.deltaTime; // Track time passed
 
                 // Calculate progress (0 to 1)
-                float percent = elapsed / secondsToFullRadius;
+                float percent = size.Evaluate(elapsed / secondsToFullRadius);
 
                 // Apply the scale
                 transform.localScale = Vector3.Lerp(startScale, endScale, percent);
@@ -38,11 +41,7 @@ namespace MagicSystem.Target
             // Ensure it hits the exact final size at the end
             transform.localScale = endScale;
             elapsed = 0f;
-            while (elapsed < secondsAtMaxRadius)
-            {
-                elapsed += Time.deltaTime;
-                yield return null;
-            }
+            yield return new WaitForSeconds(secondsAtMaxRadius);
             gameObject.SetActive(false);
         }
 
@@ -51,6 +50,10 @@ namespace MagicSystem.Target
             particle = GetComponent<ParticleSystem>();
             transform.localScale = radius * Vector3.one;
             transform.position = caster.transform.position;
+        }
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            onContactTarget?.Invoke(collision.gameObject);
         }
         void OnDrawGizmosSelected()
         {

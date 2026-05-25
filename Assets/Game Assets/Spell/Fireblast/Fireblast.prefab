@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 785316947748689543}
   - component: {fileID: 432714873032882221}
   - component: {fileID: 5978262844506028309}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Fireblast
   m_TagString: Untagged
   m_Icon: {fileID: 0}

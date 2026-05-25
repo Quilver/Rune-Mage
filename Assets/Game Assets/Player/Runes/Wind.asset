@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6d7a9e47d335a449a22062426a7105, type: 3}
+  m_Name: Wind
+  m_EditorClassIdentifier: 
+  runeIcon: {fileID: 21300000, guid: 704971e311954614d948e0030197fdc0, type: 3}
+  runeType: 0
+  MaxUses: 12
+  UsesLeft: 11
+  unlocked: 1

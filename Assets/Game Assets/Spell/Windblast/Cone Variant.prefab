@@ -32,6 +32,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WindBlast
       objectReference: {fileID: 0}
+    - target: {fileID: 4848922501747374878, guid: 144d2ec43ebb15243bf451dd8a4353ea, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7705767417621353541, guid: 144d2ec43ebb15243bf451dd8a4353ea, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -118,9 +122,17 @@ PrefabInstance:
       propertyPath: maxRange
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 497099200544530526, guid: 87af358fb3b2e9743984b291df925722, type: 3}
+      propertyPath: layerMask.m_Bits
+      value: 65
+      objectReference: {fileID: 0}
     - target: {fileID: 4070559781774569933, guid: 87af358fb3b2e9743984b291df925722, type: 3}
       propertyPath: m_Name
       value: Cone Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4070559781774569933, guid: 87af358fb3b2e9743984b291df925722, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4395438271191832113, guid: 87af358fb3b2e9743984b291df925722, type: 3}
       propertyPath: m_LocalPosition.x

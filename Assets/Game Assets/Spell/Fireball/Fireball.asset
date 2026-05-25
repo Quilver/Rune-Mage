@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96fdb427185dc5545ba93d038a962e88, type: 3}
   m_Name: Fireball
   m_EditorClassIdentifier: 
-  target: {fileID: 80861388145874274, guid: eb542fbfc6a818a47b822d48ea48b5d5, type: 3}
+  target: {fileID: 80861388145874274, guid: fa58e23984472d84392bbcd43e943cd9, type: 3}
   effects:
   - {fileID: 11400000, guid: 0892a3b0d8badc6428758dd95ccaa1fe, type: 2}
