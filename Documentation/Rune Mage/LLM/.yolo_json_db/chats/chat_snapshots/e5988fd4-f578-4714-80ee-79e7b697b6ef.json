@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "23182069": {
+      "hash": "23182069",
+      "content": [
+        {
+          "type": "text",
+          "text": "## Mentioned Vault Files (outline only)\n- `Design Specifications/Magic/Grimoire.md`\n\nThis section provides only paths and outlines. Use file tools only if you need the full contents or a specific line range.\n\n\nCreate  a table with columns: rune, internal, project. \n\n"
+        }
+      ],
+      "createdAt": 1778829118584,
+      "updatedAt": 1778829118584
+    }
+  }
+}

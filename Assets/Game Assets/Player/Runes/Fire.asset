@@ -16,4 +16,4 @@ MonoBehaviour:
   runeType: 1
   MaxUses: 9
   UsesLeft: 9
-  unlocked: 1
+  unlocked: 0

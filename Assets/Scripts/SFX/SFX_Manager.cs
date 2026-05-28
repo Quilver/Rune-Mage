@@ -10,14 +10,14 @@ public class SFX_Manager : MonoBehaviour
 {
     public static SFX_Manager instance;
     [SerializeField]
-    AudioSource soundFXObject;
+    GameObject soundFXObject;
     private void Awake()
     {
         instance = this;
     }
     public void PlaySFXClip(AudioClip clip, Transform spawn, float volume)
     {
-        AudioSource audioSource = Instantiate(soundFXObject, spawn.position, Quaternion.identity);
+        AudioSource audioSource = Instantiate(soundFXObject, spawn.position, Quaternion.identity).GetComponent<AudioSource>();
         audioSource.clip = clip;
         audioSource.volume = volume;
         float clipLength = audioSource.clip.length;

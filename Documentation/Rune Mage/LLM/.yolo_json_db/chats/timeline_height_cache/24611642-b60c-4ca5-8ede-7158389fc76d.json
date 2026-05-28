@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": 1776854651530,
+  "scopes": {
+    "320::15px|19.5px|\"??\", \"??\", \"??\", ui-sans-serif, -apple-system, BlinkMacSystemFont, system-ui, \"Segoe UI\", \"Google Sans Flex\", Roboto, \"Inter Variable\", Inter, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif|na|1rem|calc(1rem * 2.5)": {
+      "widthBucket": 320,
+      "styleSignature": "15px|19.5px|\"??\", \"??\", \"??\", ui-sans-serif, -apple-system, BlinkMacSystemFont, system-ui, \"Segoe UI\", \"Google Sans Flex\", Roboto, \"Inter Variable\", Inter, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", sans-serif|na|1rem|calc(1rem * 2.5)",
+      "updatedAt": 1776854630987,
+      "heights": {
+        "bottom-anchor": 10,
+        "952e9856-d8a9-4306-bee3-3d22031e7581": 85,
+        "query-progress": 40,
+        "2b3bcd0c-b2b7-434b-9672-0744169c9750-slice-0": 2281,
+        "continue-response": 38
+      }
+    },
+    "0::default": {
+      "widthBucket": 0,
+      "styleSignature": "default",
+      "updatedAt": 1776838740581,
+      "heights": {
+        "bottom-anchor": 10
+      }
+    }
+  }
+}

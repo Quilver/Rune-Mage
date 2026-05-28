@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "705667e8": {
+      "hash": "705667e8",
+      "content": [
+        {
+          "type": "text",
+          "text": "## Mentioned Vault Files (outline only)\n- `Rune Mage.md`\n\nThis section provides only paths and outlines. Use file tools only if you need the full contents or a specific line range.\n\n\n/wiki ingest @Rune Mage.md \n\n"
+        }
+      ],
+      "createdAt": 1776860368691,
+      "updatedAt": 1776860368691
+    }
+  }
+}

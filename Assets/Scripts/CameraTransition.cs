@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class CameraTransition : MonoBehaviour
 {
+    [SerializeField] AudioSource hubSong, roomSong;
     [SerializeField]
     Transform cam;
     [System.Serializable]
@@ -34,6 +35,7 @@ public class CameraTransition : MonoBehaviour
     {
         Exit(currentRoom);
         currentRoom = hubPoints[0];
+        hubSong.enabled = true;
         Camera.main.transform.position = currentRoom.cameraPos.transform.position;
     }
     IEnumerator Transition()
@@ -55,11 +57,19 @@ public class CameraTransition : MonoBehaviour
     }
     public void Enter(TransitionPoint room)
     {
+        if(room.cameraPos == hubPoints[0].cameraPos)
+            hubSong.enabled = true;
+        else
+            roomSong.enabled = true;
         foreach (EnemyAI enemy in room.enemyAI) 
             if(enemy)enemy.enabled = true;
     }
     public void Exit(TransitionPoint room)
     {
+        if (room.cameraPos == hubPoints[0].cameraPos)
+            hubSong.enabled = false;
+        else
+            roomSong.enabled = false;
         foreach (EnemyAI enemy in room.enemyAI)
             if (enemy) enemy.enabled = false;
     }

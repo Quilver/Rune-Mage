@@ -4,7 +4,8 @@ using UnityEngine.Rendering.Universal;
 
 public class Bonfire : MonoBehaviour
 {
-
+    [SerializeField]
+    Audio restJingle;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.GetComponent<PlayerControls>() != null)
@@ -28,5 +29,6 @@ public class Bonfire : MonoBehaviour
     {
         player.Reset();
         StartCoroutine(RestCoroutine());
+        SFX_Manager.instance.PlaySFXClip(restJingle.clip, transform, restJingle.volume);
     }
 }

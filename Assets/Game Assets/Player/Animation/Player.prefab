@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 614108550393630849}
   - component: {fileID: 4539873058065143671}
   - component: {fileID: 1294327414128869195}
+  - component: {fileID: 627459654487386792}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -74,6 +75,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 10
+  player: 0
 --- !u!50 &614108550393630849
 Rigidbody2D:
   serializedVersion: 5
@@ -167,6 +169,27 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &627459654487386792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048898165299256282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3905a260f6ab74186227d87ff16e50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage:
+    clip: {fileID: 8300000, guid: ae35fce7f1f66054db1eba9036fb62cf, type: 3}
+    volume: 1
+  attack:
+    clip: {fileID: 8300000, guid: 6accc1e564dae6f4ab658738c0a1282f, type: 3}
+    volume: 1
+  death:
+    clip: {fileID: 8300000, guid: 095291e9ff0eee04ea331263ab904cb8, type: 3}
+    volume: 1
 --- !u!1 &4560994610283056991
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lookControl: {fileID: -5630151704836100654, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   mouseLook: {fileID: 0}
-  radius: 0.75
+  radius: 0.355
   lookDirection: {x: 0, y: 0}
   spell: {fileID: 0}
 --- !u!212 &1787735914132787961

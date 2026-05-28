@@ -454,6 +454,7 @@ GameObject:
   - component: {fileID: 5879394720828865552}
   - component: {fileID: 2568952744833430452}
   - component: {fileID: 8294031760022162622}
+  - component: {fileID: 692401049859432151}
   m_Layer: 6
   m_Name: Baba Yaga
   m_TagString: Untagged
@@ -521,6 +522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 10
+  player: 0
 --- !u!61 &5879394720828865552
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -597,6 +599,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   checkFriendlyFire: 1
+  currentAttack: {fileID: 0}
+  Victory: {fileID: 0}
 --- !u!195 &8294031760022162622
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -619,6 +623,33 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &692401049859432151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7030144295930216396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b631f46276fba5a4cac5c536b45063a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage:
+    clip: {fileID: 8300000, guid: fed837e99447c1e46a0816977cefdf7d, type: 3}
+    volume: 1
+  death:
+    clip: {fileID: 8300000, guid: 0ad3f3940c1c2b34996ce42751e526aa, type: 3}
+    volume: 1
+  attack:
+    clip: {fileID: 8300000, guid: dcd6090a43789c04aaaea2c28776ce6f, type: 3}
+    volume: 1
+  stun:
+    clip: {fileID: 8300000, guid: d0542a65f6814b24a8f373c8110f72f8, type: 3}
+    volume: 1
+  spot:
+    clip: {fileID: 8300000, guid: 5d18825f0f930e24ab7d72811944effc, type: 3}
+    volume: 1
 --- !u!1 &7463440318504971807
 GameObject:
   m_ObjectHideFlags: 0

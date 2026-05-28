@@ -101,6 +101,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d26063d0b269ec47864c8854b9a5741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rewardJingle:
+    clip: {fileID: 8300000, guid: 0262bbdded2fc8745b64f942394adfc7, type: 3}
+    volume: 0.353
+  type: 0
+  door: {fileID: 0}
+  levelup: {fileID: 0}
 --- !u!58 &8871378574460211319
 CircleCollider2D:
   m_ObjectHideFlags: 0

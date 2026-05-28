@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "d60474f48ce1efc0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f37993e3fc015d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77300a6d1c3f83b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLM/skills/wiki/SKILL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e2d4db8ac612d90c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b282a156784f8f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1894aca91a7a720d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ce9e681ca07441f5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d1bf7ece5f1ad25a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "215dcdf6ce511e19",
+    "type": "split",
+    "children": [
+      {
+        "id": "a98c5d941bc8b0e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6940ca91201186aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "LLM/skills/Unity UX/SKILL.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for SKILL"
+            }
+          },
+          {
+            "id": "7f1ff69c805f683a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LLM/skills/decision/SKILL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from SKILL"
+            }
+          },
+          {
+            "id": "a267a8b18d6d3a01",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f8fad7b782228b5d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9864e0414078d730",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LLM/skills/Unity UX/SKILL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of SKILL"
+            }
+          },
+          {
+            "id": "0eed0bf9a6716352",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "新对话"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 485.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "yolo:Open chat": false
+    }
+  },
+  "active": "77300a6d1c3f83b2",
+  "lastOpenFiles": [
+    "Design Specifications/Magic/Grimoire.md",
+    "Implementation/Plan.md",
+    "Design Specifications/Magic/Magic.md",
+    "Design Specifications/Art.md",
+    "Design Specifications/Summary.md",
+    "Design Specifications/Spell prototype system.md",
+    "Design Specifications/Player resources.md",
+    "Design Specifications/Level Design/Hub.md",
+    "Design Specifications/Level Design/Encounter template.md",
+    "Design Specifications/Level Design/Encounter 6.md",
+    "Design Specifications/Level Design/Encounter 1.md",
+    "Design Specifications/Level Design/Encounter 2.md",
+    "Design Specifications/Level Design/Encounter 3.md",
+    "Design Specifications/Magic/Magic graph.canvas",
+    "Design Specifications/Story.md",
+    "Design Specifications/Enemies/Wizard AI.md",
+    "Design Specifications/Enemies/Enemy types.md",
+    "Design Specifications/Enemies/Enemy AI.md",
+    "Design Specifications/Enemies/Goblin AI.md",
+    "Design Specifications/Enemies",
+    "Design Specifications/Level Design/Encounter 4.md",
+    "Design Specifications/Level Design/Encounter 5.md",
+    "Design Specifications/Level Design/Encounter 7.md",
+    "Design Specifications/Level Design",
+    "Design Specifications/Rune Mage.md",
+    "Design Specifications/Design Goals.md",
+    "Design Specifications/Magic/Untitled.base",
+    "Design Specifications/Magic",
+    "LLM/Exports/新对话 - 2026-04-28.md",
+    "LLM/Exports/新对话 - 2026-05-14.md",
+    "LLM/Exports/Designing_Spell-Specifications@20260412_210648.md",
+    "Implementation/NPCs",
+    "Implementation/Magic System/Spells",
+    "Implementation/Magic System/Casting",
+    "Implementation/Magic System",
+    "LLM/Code Templates",
+    "Implementation/UX"
+  ]
+}

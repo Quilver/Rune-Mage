@@ -1,0 +1,348 @@
+{
+  "id": "e5988fd4-f578-4714-80ee-79e7b697b6ef",
+  "title": "新对话",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Create  a table with columns: rune, internal, project. ",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "snapshotRef": {
+        "hash": "23182069"
+      },
+      "id": "e327c83b-9b51-486e-acc5-aefabe946923",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Design Specifications/Magic/Grimoire.md"
+        }
+      ],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "off"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "\n*   Target file: `Design Specifications/Magic/Grimoire.md` (Currently only has \"List of spells\").\n    *   Goal: Create a table with columns: `rune`, `internal`, `project`.\n    *   Context: The user provided an outline and is asking to create a table. I need to find the actual data for these columns. Since the current file content is empty (only \"List of spells\"), I need to search for information related to runes, internal mechanics, or projects within the vault that might populate this table.\n\n    *   `rune`: Likely refers to magical runes or symbols defined in the vault.\n    *   `internal`: Could refer to an internal name, property, or mechanic.\n    *   `project`: Could refer to which project/spell uses this rune.\n\n    *   Search for \"rune\" or \"runes\" in the vault to see if there's a list of runes defined elsewhere.\n    *   Check `Design Specifications/Magic/Grimoire.md` (already known, but maybe more content is available via search).\n    *   Look for files that mention \"rune\", \"internal\", or \"project\" in a way that suggests a structured list.\n\n    1.  Search for runes/magic systems to gather data for the table.",
+      "toolCallRequests": [
+        {
+          "id": "847858469",
+          "name": "yolo_local__fs_search",
+          "arguments": {
+            "kind": "complete",
+            "value": {
+              "query": "rune",
+              "scope": "content"
+            },
+            "rawText": "{\"query\":\"rune\",\"scope\":\"content\"}"
+          }
+        }
+      ],
+      "id": "d341e601-2942-4871-825d-9cbca11aa24c",
+      "metadata": {
+        "model": {
+          "providerId": "lm",
+          "id": "google/gemma-4-26b-a4b",
+          "model": "google/gemma-4-26b-a4b",
+          "name": "gemma4:26b-a4b",
+          "enable": true,
+          "reasoningType": "none",
+          "toolType": "gpt",
+          "gptTools": {
+            "webSearch": {
+              "enabled": false
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "e5988fd4-f578-4714-80ee-79e7b697b6ef",
+        "branchModelId": "google/gemma-4-26b-a4b",
+        "branchLabel": "gemma4:26b-a4b",
+        "usage": {
+          "prompt_tokens": 2578,
+          "completion_tokens": 305,
+          "total_tokens": 2883,
+          "completion_tokens_details": {
+            "reasoning_tokens": 276
+          }
+        },
+        "durationMs": 16652
+      }
+    },
+    {
+      "role": "tool",
+      "toolCalls": [
+        {
+          "request": {
+            "id": "847858469",
+            "name": "yolo_local__fs_search",
+            "arguments": {
+              "kind": "complete",
+              "value": {
+                "query": "rune",
+                "scope": "content"
+              },
+              "rawText": "{\"query\":\"rune\",\"scope\":\"content\"}"
+            }
+          },
+          "response": {
+            "status": "success",
+            "data": {
+              "type": "text",
+              "text": "{\n  \"tool\": \"fs_search\",\n  \"requestedMode\": \"hybrid\",\n  \"effectiveMode\": \"keyword\",\n  \"fallbackReason\": \"No embedding model configured. Fell back to keyword search.\",\n  \"scope\": \"content\",\n  \"query\": \"rune\",\n  \"path\": \"\",\n  \"results\": [\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"llm-wiki-master/CLAUDE.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 1,\n          \"startLine\": 1,\n          \"endLine\": 1,\n          \"snippet\": \"# [Rune Mage] Knowledge Base — Schema ## Purpose <!-- CUSTOMIZE: Replace this with a one-paragraph description of your knowle...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"Design Specifications/Player resources.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 2,\n          \"startLine\": 2,\n          \"endLine\": 2,\n          \"snippet\": \"1. Hitpoints: standard 2. Runes: There will be 16 runes, you unlock and increase your number of them during your playthrough. there will be 4 basic ru...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"Design Specifications/Rune Mage.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 1,\n          \"startLine\": 1,\n          \"endLine\": 1,\n          \"snippet\": \"Play as wizard journeying through the forgotten lands to find the rune of Apotheosis. The game is mashup of Magicka with Metroidvania and Soulslike elements. You will go to: 1. A Fortress h...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"LLM/skills/wiki/SKILL.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 4,\n          \"startLine\": 4,\n          \"endLine\": 4,\n          \"snippet\": \"--- name: wiki id: wiki description: This is an LLM-maintained knowledge base on [Rune Mage]. The LLM writes and maintains all files under `LLM/wiki/`. The human curates raw sources and directs queries. The...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"Design Specifications/Summary.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 2,\n          \"startLine\": 2,\n          \"endLine\": 2,\n          \"snippet\": \"...me is a **2D top-down action RPG** centred around a wizard character. The primary mechanic involves typing sequences of runes to manifest spells. ### Rune Input & Consumption * **Input Method:** Players use specific key bindings for each run...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"LLM/Exports/新对话 - 2026-04-22.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 10,\n          \"startLine\": 10,\n          \"endLine\": 10,\n          \"snippet\": \"...T12:26:36.840Z conversation_id: ab4d9397-0a1e-4bfe-9bd4-a88488a34c8c --- ## User > [!info]- Mentioned vault files > - `Rune Mage.md` > > This section provides only paths and outlines. Use file tools only if you need the full contents or a spec...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"LLM/Exports/新对话 - 2026-04-28.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 12,\n          \"startLine\": 12,\n          \"endLine\": 12,\n          \"snippet\": \"...> [!info]- Mentioned vault files > - `Design Specifications/Summary.md` > - L1 ## 1. Core Gameplay Loop > - L4 ### Rune Input & Consumption > - L12 ## 2. The Spell Casting Logic > - L15 ### Step 1: Base Spell Identification (The Rule S...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"LLM/Exports/Designing_Spell-Specifications@20260412_210648.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 10,\n          \"startLine\": 10,\n          \"endLine\": 10,\n          \"snippet\": \"...nd write a document title 'Spell-Specifications' that summarises how I want spells to work [Context: Notes: llm-planner/Rune Spell System Design - 2026-04-12 11.24.md, llm-planner/Spells.md] [Timestamp: 2026/04/12 21:06:48] **ai**: # Spell-Spe...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    },\n    {\n      \"kind\": \"content_group\",\n      \"path\": \"Design Specifications/Design Goals.md\",\n      \"source\": \"keyword\",\n      \"score\": 0,\n      \"hitCount\": 1,\n      \"snippets\": [\n        {\n          \"line\": 25,\n          \"startLine\": 25,\n          \"endLine\": 25,\n          \"snippet\": \"...il they fall to their arrogance (incapable of understanding anything outside themselves). ## Other Ideas ### Spells/runes Magic: Medium (how the spell hits its targets), Duration (How long does the spell last), Effect (What it does to its...\",\n          \"source\": \"keyword\"\n        }\n      ]\n    }\n  ]\n}"
+            }
+          }
+        }
+      ],
+      "id": "5f825378-3760-4c94-9710-e83aa0f5af99",
+      "metadata": {
+        "branchConversationId": "e5988fd4-f578-4714-80ee-79e7b697b6ef",
+        "branchModelId": "google/gemma-4-26b-a4b",
+        "branchLabel": "gemma4:26b-a4b"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "reasoning": "\nThe user wants to create a table with columns `rune`, `internal`, and `project`.\nLooking at the current file: `Design Specifications/Magic/Grimoire.md` is currently very sparse (just \"List of spells\").\nThe search results for \"rune\" showed several interesting files:\n- `Design Specifications/Player resources.md`: mentions \"16 runes... 4 basic ru...\"\n- `Design Specifications/Summary.md`: mentions \"typing sequences of runes to manifest spells\".\n- `Design Specifications/Design Goals.md`: mentions magic mechanics (Magic, Duration, Effect).\n\nHowever, the user's request \"Create a table with columns: rune, internal, project\" implies there is some existing data or context about specific runes, their internal representations, and which project they belong to.\nSince `Grimoire.md` doesn't have this data yet, I need to find where this information might reside.\n\nI'll check `Design Specifications/Player resources.md` first to see if there's any detail on the 16 runes.\nThen I'll look for anything else related to \"rune\" or \"spell\" that might contain mapping-like data (internal names, project associations).\n\nWait, maybe the user *w's* giving me the command to *start* building this table in `Grimoire.md` based on information they expect me to find? Or perhaps they are providing a template for me to fill using information found elsewhere.\n\nLet's look at `Design Specifications/Player resources.md`.",
+      "toolCallRequests": [
+        {
+          "id": "812030121",
+          "name": "yolo_local__fs_read",
+          "arguments": {
+            "kind": "complete",
+            "value": {
+              "operation": {
+                "type": "full"
+              },
+              "paths": [
+                "Design Specifications/Player resources.md"
+              ]
+            },
+            "rawText": "{\"operation\":{\"type\":\"full\"},\"paths\":[\"Design Specifications/Player resources.md\"]}"
+          }
+        }
+      ],
+      "id": "b42b7ab4-ca37-4023-aef2-04139576222e",
+      "metadata": {
+        "model": {
+          "providerId": "lm",
+          "id": "google/gemma-4-26b-a4b",
+          "model": "google/gemma-4-26b-a4b",
+          "name": "gemma4:26b-a4b",
+          "enable": true,
+          "reasoningType": "none",
+          "toolType": "gpt",
+          "gptTools": {
+            "webSearch": {
+              "enabled": false
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "e5988fd4-f578-4714-80ee-79e7b697b6ef",
+        "branchModelId": "google/gemma-4-26b-a4b",
+        "branchLabel": "gemma4:26b-a4b",
+        "usage": {
+          "prompt_tokens": 3855,
+          "completion_tokens": 363,
+          "total_tokens": 4218,
+          "completion_tokens_details": {
+            "reasoning_tokens": 326
+          }
+        },
+        "durationMs": 21566
+      }
+    },
+    {
+      "role": "tool",
+      "toolCalls": [
+        {
+          "request": {
+            "id": "812030121",
+            "name": "yolo_local__fs_read",
+            "arguments": {
+              "kind": "complete",
+              "value": {
+                "operation": {
+                  "type": "full"
+                },
+                "paths": [
+                  "Design Specifications/Player resources.md"
+                ]
+              },
+              "rawText": "{\"operation\":{\"type\":\"full\"},\"paths\":[\"Design Specifications/Player resources.md\"]}"
+            }
+          },
+          "response": {
+            "status": "success",
+            "data": {
+              "type": "text",
+              "text": "{\n  \"tool\": \"fs_read\",\n  \"toolCallId\": \"812030121\",\n  \"requestedOperation\": {\n    \"type\": \"full\",\n    \"startLine\": null,\n    \"endLine\": null,\n    \"maxLines\": null\n  },\n  \"results\": [\n    {\n      \"path\": \"Design Specifications/Player resources.md\",\n      \"ok\": true,\n      \"totalLines\": 7,\n      \"returnedRange\": {\n        \"startLine\": 1,\n        \"endLine\": 7,\n        \"count\": 7\n      },\n      \"hasMoreAbove\": false,\n      \"hasMoreBelow\": false,\n      \"nextStartLine\": null,\n      \"content\": \"1|1. Hitpoints: standard\\n2|2. Runes: There will be 16 runes, you unlock and increase your number of them during your playthrough. there will be 4 basic runes, 8 advanced runes, and 4 special runes\\n3|3. Cultivation/Wizard level: At the bonfire you can set your cultivation technique. This sets your wizard level (max number of runes to be combined into a spell), max number of runes for each rune and in total, and may offer additional benefits\\n4|4. Spells/Rituals: unique effect when activated with specific sequence of runes. Usually not suited for battle but provides utility (summon minions, stealth, break illusion, etc)\\n5|5. Ink: currency, can be used to inscribe runes. Bosses may drop unique inks for advanced runes.\\n6|6. Equipment(Wand, robes, hat?, rings): standard\\n7|7. Grimoire: Contains lore, spell, cultivation, or ritual. Lore will provide hints for some puzzle in the game\"\n    }\n  ]\n}"
+            }
+          }
+        }
+      ],
+      "id": "dfd62dcc-d6cb-4558-9dd0-bdabe6c4a299",
+      "metadata": {
+        "branchConversationId": "e5988fd4-f578-4714-80ee-79e7b697b6ef",
+        "branchModelId": "google/gemma-4-26b-a4b",
+        "branchLabel": "gemma4:26b-a4b"
+      }
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot create the table yet because the current file (`Design Specifications/Magic/Grimoire.md`) only contains a header and no specific rune data. \n\nTo populate the **rune**, **internal**, and **project** columns, please provide the list of runes or point me to a file that contains their details (such as their names, internal identifiers, or which project they belong to).",
+      "reasoning": "\nThe user wants to create a table with columns: `rune`, `internal`, and `project`.\nThe source material for this table seems to be related to the contents of `Design Specifications/Magic/Grimoire.md`.\nLooking at the provided file content for `Design Specifications/Magic/Grimoire.md`:\n```markdown\nList of spells\n```\nIt's currently empty (just a header).\n\nWait, the user wants me to \"Create a table with columns: rune, internal, project.\"\nUsually, such a request implies extracting data from the vault or the current file.\nThe `Design Specifications/Magic/Grimore.md` file is almost empty.\nHowever, looking at previous search results:\n- `Design Specifications/Player resources.md` mentions \"There will be 16 runes... 4 basic runes, 8 advanced runes, and 4 special runes\". It doesn't list them by name though.\n\nWait, if the user is asking to create a table based on a file that is empty, I might need to look for other files that contain rune information.\nThe search result `Design Specifications/Player resources.md` was found.\nLet's check if there are other files containing \"rune\" and more detailed info.\nActually, the user might be asking me to *populate* this table as they provide content, or they expect me to find it.\n\nRe-reading: \"Create a table with columns: rune, internal, project.\"\nThe current file `Design Specifications/Magic/Grimoire.md` only has \"List of spells\".\nThere is no data in the provided file to populate such a table yet.\nHowever, I should check if there are other files that *do* have this information.\n\nLooking at my search results:\n- `Design Specifications/Player resources.md`: mentions 16 runes (4 basic, 8 advanced, 4 special) but no names.\n- `Design Specifications/Summary.md`: \"The primary mechanic involves typing sequences of runes to manifest spells.\" No list.\n\nWait, maybe the user *is* providing the content in a way I haven't seen yet? Or perhaps they want me to look into other files like `Design Specifications/Magic/Grimoire.md` (which is the current file) or others related to magic.\nActually, the user provided:\n```markdown\n# Inputs\n## Current File\nHere is the file I'm looking at.\n```Design Specifications/Magic/Grimoire.md`\nList of spells\n```\nIt doesn't contain the data.\n\nLet me check if there are any other files that might have rune names. I'll search for \"rune\" specifically in `Design Specifications`.",
+      "id": "e0ed059a-179a-4862-a36d-8178e504625f",
+      "metadata": {
+        "model": {
+          "providerId": "lm",
+          "id": "google/gemma-4-26b-a4b",
+          "model": "google/gemma-4-26b-a4b",
+          "name": "gemma4:26b-a4b",
+          "enable": true,
+          "reasoningType": "none",
+          "toolType": "gpt",
+          "gptTools": {
+            "webSearch": {
+              "enabled": false
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "e5988fd4-f578-4714-80ee-79e7b697b6ef",
+        "branchModelId": "google/gemma-4-26b-a4b",
+        "branchLabel": "gemma4:26b-a4b",
+        "usage": {
+          "prompt_tokens": 4229,
+          "completion_tokens": 660,
+          "total_tokens": 4889,
+          "completion_tokens_details": {
+            "reasoning_tokens": 576
+          }
+        },
+        "durationMs": 30216
+      }
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "The rows are eath, fire, wind, lightning. The other values should be blank",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": null,
+      "id": "b8b86d12-3d8f-4c2f-bce5-303b38fd4dcb",
+      "mentionables": [],
+      "selectedSkills": [],
+      "selectedModelIds": [],
+      "reasoningLevel": "off"
+    },
+    {
+      "role": "assistant",
+      "content": "<smtcmp_block filename=\"Design Specifications/Magic/Grimoire.md\">\n<<<<<<< REPLACE\nList of spells\n=======\nList of spells\n\n| rune | internal | project |\n| :--- | :--- | :--- |\n| earth | | |\n| fire | | |\n| wind | | |\n| lightning | | |\n>>>>>>> END\n</smtcmp_block>",
+      "reasoning": "\n*   Input: A request to create a table with columns `rune`, `internal`, and `project`.\n    *   Data: Rows are \"eath\" (likely typo for \"earth\"), \"fire\", \"wind\", \"lightning\". Other values (\"internal\", \"project\") should be blank.\n    *   Context: The user provided the content of `Design Specifications/Magic/Grimoire.md`, which is currently just `List of spells`.\n\n    *   Format: Markdown table.\n    *   Columns: `rune` | `internal` | `project`.\n    *   Rows:\n        1.  earth | |\n        2.  fire | |\n        3.  wind | |\n        4.  lightning | |\n\n    *Wait, the user wrote \"eath\". I should probably correct it to \"earth\" or keep it as is if they intended a specific name? Usually, in game design, these are standard elements. I'll assume \"earth\" but I'll check if there's any reason to use \"eath\". Actually, looking at the prompt, it says \"eath\". I will provide what was requested, or perhaps fix the typo if it's obvious. Let's stick to the user's provided text but maybe assume they meant earth.*\n\n    *Actually, a better approach is to follow the instruction exactly or fix the typo silently if it's clearly a mistake. \"Earth\" is much more common. I'll use \"earth\".*\n\n    *Wait, I should also check if I need to update the file `Design Specifications/Magic/Grimoire.md` with this table.*\n    The user said: \"Create a table...\". They didn't explicitly say \"Update the file\", but they provided the current content of the file in a way that suggests they are working on it. However, usually, if a user says \"Create a table\", and provides the file content, they might want the table *in* that file or just as a response. Looking at the `obsidian-output-format` skill, I should use it if I'm proposing an edit.\n\n    Let's look at the prompt again:\n    \"Create a table with columns: rune, internal, project.\"\n    \"The rows are eath, fire, wind, lightning. The other values should be blank\"\n    \"Current File: ... `Design Specifications/Magic/Grimoire.md` ... List of spells\"\n\n    It is highly likely the user wants this table added to that file.\n\n    *   File: `Design Specifications/Magic/Grimoire.md`\n    *   Original content: `List of spells`\n    *   New content:\n        ```markdown\n        List of spells\n\n        | rune | internal | project |\n        | :--- | :--- | :--- |\n        | earth | | |\n        | fire | | |\n        | wind | | |\n        | lightning | | |\n        ```\n\n    *Wait, the user wrote \"eath\". I'll use \"earth\" as it's clearly a typo for the element.*\n\n    Let's prepare the `<smtcmp_block>`.",
+      "id": "67056295-c4e3-49b7-83a4-eeb1d1a1a4d4",
+      "metadata": {
+        "model": {
+          "providerId": "lm",
+          "id": "google/gemma-4-26b-a4b",
+          "model": "google/gemma-4-26b-a4b",
+          "name": "gemma4:26b-a4b",
+          "enable": true,
+          "reasoningType": "none",
+          "toolType": "gpt",
+          "gptTools": {
+            "webSearch": {
+              "enabled": false
+            }
+          }
+        },
+        "generationState": "completed",
+        "branchConversationId": "e5988fd4-f578-4714-80ee-79e7b697b6ef",
+        "branchModelId": "google/gemma-4-26b-a4b",
+        "branchLabel": "gemma4:26b-a4b",
+        "usage": {
+          "prompt_tokens": 4330,
+          "completion_tokens": 770,
+          "total_tokens": 5100,
+          "completion_tokens_details": {
+            "reasoning_tokens": 681
+          }
+        },
+        "durationMs": 36761
+      }
+    }
+  ],
+  "createdAt": 1778829118593,
+  "updatedAt": 1778829330434,
+  "schemaVersion": 1,
+  "overrides": {
+    "chatMode": "chat"
+  },
+  "conversationModelId": "google/gemma-4-26b-a4b",
+  "messageModelMap": {
+    "e327c83b-9b51-486e-acc5-aefabe946923": "google/gemma-4-26b-a4b",
+    "b8b86d12-3d8f-4c2f-bce5-303b38fd4dcb": "google/gemma-4-26b-a4b"
+  },
+  "assistantGroupBoundaryMessageIds": [],
+  "reasoningLevel": "off",
+  "compaction": []
+}

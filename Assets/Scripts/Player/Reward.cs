@@ -3,6 +3,8 @@ using UnityEngine.Rendering.Universal;
 using System.Collections;
 public class Reward : MonoBehaviour
 {
+    [SerializeField]
+    Audio rewardJingle;
     public enum RewardType
     {
         Fire, Earth, Lightning, Level
@@ -25,7 +27,8 @@ public class Reward : MonoBehaviour
     }
     public void RewardEffect(PlayerControls player)
     {
-        Debug.Log("reward:" + type);
+        SFX_Manager.instance.PlaySFXClip(rewardJingle.clip, transform, rewardJingle.volume);
+
         switch (type)
         {
             case RewardType.Fire:

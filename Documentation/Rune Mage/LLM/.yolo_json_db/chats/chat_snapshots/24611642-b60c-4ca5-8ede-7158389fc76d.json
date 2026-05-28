@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "c969a72c": {
+      "hash": "c969a72c",
+      "content": [
+        {
+          "type": "text",
+          "text": "## Mentioned Vault Files (outline only)\n- `llm-planner/SKILL grill me.md`\n  - Properties:\n    - `name`: `grill-me`\n    - `description`: `Interview the user relentlessly about a plan or design until reaching shared understanding, list and then resolve each ambiguity or contradiction one-by-one. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".`\n\nThis section provides only paths and outlines. Use file tools only if you need the full contents or a specific line range.\n\n\nCan you create this as a skill for yourself @SKILL grill me.md \n\n"
+        }
+      ],
+      "createdAt": 1776854214193,
+      "updatedAt": 1776854214193
+    }
+  }
+}

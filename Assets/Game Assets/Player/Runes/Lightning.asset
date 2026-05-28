@@ -15,5 +15,5 @@ MonoBehaviour:
   runeIcon: {fileID: 21300000, guid: 50f34b8b3f903b843a25b3a7d8eafc45, type: 3}
   runeType: 3
   MaxUses: 6
-  UsesLeft: 1
-  unlocked: 1
+  UsesLeft: 6
+  unlocked: 0

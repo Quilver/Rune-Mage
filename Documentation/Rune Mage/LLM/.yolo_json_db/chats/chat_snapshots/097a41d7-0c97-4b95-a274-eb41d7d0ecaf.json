@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "40170bbd": {
+      "hash": "40170bbd",
+      "content": [
+        {
+          "type": "text",
+          "text": "## Mentioned Vault Files (outline only)\n- `Design Specifications/Summary.md`\n  - L1 ## 1. Core Gameplay Loop\n  - L4 ### Rune Input & Consumption\n  - L12 ## 2. The Spell Casting Logic\n  - L15 ### Step 1: Base Spell Identification (The Rule System)\n  - L20 ### Step 2: Modifier Application\n  - L27 ## 3. Spell Classifications\n  - L39 ## 4. Component Breakdown\n  - L41 ### Elements & Cores\n  - L46 ### Status Effects & Modifiers\n  - L55 ## 5. Technical Architecture Summary\n\nThis section provides only paths and outlines. Use file tools only if you need the full contents or a specific line range.\n\n\n@Summary.md I need a plan for programming this in Unity over the week as part of a game jam. Suggest me a checklist plan for implementation in a series of sprints\n\n"
+        }
+      ],
+      "createdAt": 1778873994199,
+      "updatedAt": 1778873994199
+    }
+  }
+}

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6446529317779592072}
   - component: {fileID: 8409178264117657461}
   - component: {fileID: 6039987483465470549}
+  - component: {fileID: 5992702886718406231}
   m_Layer: 6
   m_Name: Badger
   m_TagString: Untagged
@@ -81,6 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 10
+  player: 0
 --- !u!61 &6446529317779592072
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -170,6 +172,33 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &5992702886718406231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760315862035484261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b631f46276fba5a4cac5c536b45063a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage:
+    clip: {fileID: 8300000, guid: 92b396747870158469f8e94cef3b5d3e, type: 3}
+    volume: 1
+  death:
+    clip: {fileID: 8300000, guid: 2cfd942a73309c24f8955ac294f7280d, type: 3}
+    volume: 1
+  attack:
+    clip: {fileID: 8300000, guid: fa59dd49644278c4086596d6473a6a73, type: 3}
+    volume: 1
+  stun:
+    clip: {fileID: 8300000, guid: 52a1637954948ba45938b523800bdcb1, type: 3}
+    volume: 1
+  spot:
+    clip: {fileID: 8300000, guid: b8e9350ac41368d4abdfa24c1791ff5b, type: 3}
+    volume: 1
 --- !u!1 &1231264745877782258
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,267 @@
+{
+  "version": 47,
+  "providers": [
+    {
+      "id": "lm",
+      "presetType": "lm-studio",
+      "apiType": "openai-compatible",
+      "baseUrl": "http://127.0.0.1:1234",
+      "apiKey": "",
+      "additionalSettings": {
+        "requestTransportMode": "browser"
+      }
+    }
+  ],
+  "chatModels": [
+    {
+      "providerId": "lm",
+      "id": "google/gemma-4-26b-a4b",
+      "model": "google/gemma-4-26b-a4b",
+      "name": "gemma4:26b-a4b",
+      "enable": true,
+      "reasoningType": "none",
+      "toolType": "gpt",
+      "gptTools": {
+        "webSearch": {
+          "enabled": false
+        }
+      }
+    }
+  ],
+  "embeddingModels": [],
+  "chatModelId": "google/gemma-4-26b-a4b",
+  "chatTitleModelId": "google/gemma-4-26b-a4b",
+  "embeddingModelId": "",
+  "systemPrompt": "",
+  "ragOptions": {
+    "enabled": true,
+    "chunkSize": 1000,
+    "thresholdTokens": 20000,
+    "minSimilarity": 0,
+    "limit": 10,
+    "excludePatterns": [],
+    "includePatterns": [],
+    "indexPdf": true,
+    "autoUpdateEnabled": true,
+    "autoUpdateIntervalHours": 0,
+    "lastAutoUpdateAt": 0
+  },
+  "mcp": {
+    "servers": [],
+    "builtinToolOptions": {}
+  },
+  "skills": {
+    "disabledSkillIds": []
+  },
+  "yolo": {
+    "baseDir": "LLM"
+  },
+  "experimental": {
+    "storeDataInVault": false
+  },
+  "debug": {
+    "logModelRequestContext": false
+  },
+  "chatOptions": {
+    "includeCurrentFileContent": true,
+    "mentionDisplayMode": "inline",
+    "mentionContextMode": "light",
+    "chatApplyMode": "review-required",
+    "chatTitlePrompt": "",
+    "chatMode": "chat",
+    "agentModeWarningConfirmed": true,
+    "reasoningLevelByModelId": {},
+    "historyArchiveEnabled": true,
+    "historyArchiveThreshold": 50,
+    "tabTitleFollowsConversation": true,
+    "autoContextCompactionEnabled": false,
+    "autoContextCompactionThresholdMode": "tokens",
+    "autoContextCompactionThresholdTokens": 24000,
+    "autoContextCompactionThresholdRatio": 0.8,
+    "imageReadingEnabled": true,
+    "imageCompressionEnabled": true,
+    "imageCompressionQuality": 85,
+    "externalImageFetchEnabled": false
+  },
+  "notificationOptions": {
+    "enabled": false,
+    "channel": "sound",
+    "timing": "when-unfocused",
+    "notifyOnApprovalRequired": true,
+    "notifyOnTaskCompleted": true
+  },
+  "continuationOptions": {
+    "continuationModelId": "",
+    "enableSmartSpace": true,
+    "enableSelectionChat": true,
+    "persistSelectionHighlight": true,
+    "manualContextEnabled": false,
+    "manualContextFolders": [],
+    "referenceRuleFolders": [],
+    "knowledgeBaseFolders": [],
+    "stream": true,
+    "maxContinuationChars": 8000,
+    "enableTabCompletion": false,
+    "tabCompletionModelId": "",
+    "tabCompletionOptions": {
+      "idleTriggerEnabled": false,
+      "autoTriggerDelayMs": 3000,
+      "autoTriggerCooldownMs": 15000,
+      "triggerDelayMs": 3000,
+      "minContextLength": 20,
+      "contextRange": 4000,
+      "maxSuggestionLength": 2000,
+      "temperature": 0.5,
+      "requestTimeoutMs": 12000
+    },
+    "tabCompletionTriggers": [
+      {
+        "id": "sentence-end-comma",
+        "type": "string",
+        "pattern": ", ",
+        "enabled": true
+      },
+      {
+        "id": "sentence-end-chinese-comma",
+        "type": "string",
+        "pattern": "，",
+        "enabled": true
+      },
+      {
+        "id": "sentence-end-colon",
+        "type": "string",
+        "pattern": ": ",
+        "enabled": true
+      },
+      {
+        "id": "sentence-end-chinese-colon",
+        "type": "string",
+        "pattern": "：",
+        "enabled": true
+      },
+      {
+        "id": "newline",
+        "type": "regex",
+        "pattern": "\\n$",
+        "enabled": true
+      },
+      {
+        "id": "list-item",
+        "type": "regex",
+        "pattern": "(?:^|\\n)[-*+]\\s$",
+        "enabled": true
+      }
+    ],
+    "tabCompletionSystemPrompt": "Your job is to predict the most logical text that should be written at the location of the <mask/>. Your answer can be either code, a single word, or multiple sentences. Your answer must be in the same language as the text that is already there.\n\nAdditional constraints:\n{{tab_completion_constraints}}\n\nOutput only the text that should appear at the <mask/>. Do not include explanations, labels, or formatting.",
+    "tabCompletionConstraints": "",
+    "tabCompletionLengthPreset": "medium",
+    "smartSpaceTriggerMode": "single-space",
+    "smartSpaceUseWebSearch": false,
+    "smartSpaceUseUrlContext": false,
+    "enableQuickAsk": true,
+    "quickAskTrigger": "@",
+    "quickAskMode": "chat",
+    "quickAskAutoDockToTopRight": true,
+    "quickAskContextBeforeChars": 5000,
+    "quickAskContextAfterChars": 2000,
+    "streamFallbackRecoveryEnabled": true,
+    "primaryRequestTimeoutMs": 60000
+  },
+  "assistants": [
+    {
+      "id": "__default_agent__",
+      "name": "Default",
+      "description": "Default editing agent for sidebar chat.",
+      "systemPrompt": "",
+      "persona": "balanced",
+      "modelId": "google/gemma-4-26b-a4b",
+      "enableTools": true,
+      "includeBuiltinTools": true,
+      "enabledToolNames": [
+        "yolo_local__fs_list",
+        "yolo_local__fs_search",
+        "yolo_local__fs_read",
+        "yolo_local__context_prune_tool_results",
+        "yolo_local__context_compact",
+        "yolo_local__fs_edit",
+        "yolo_local__open_skill",
+        "yolo_local__fs_create_file",
+        "yolo_local__fs_delete_file",
+        "yolo_local__fs_create_dir",
+        "yolo_local__fs_delete_dir",
+        "yolo_local__fs_move",
+        "yolo_local__memory_add",
+        "yolo_local__memory_update",
+        "yolo_local__memory_delete"
+      ],
+      "toolPreferences": {
+        "yolo_local__fs_list": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__fs_search": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__fs_read": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__context_prune_tool_results": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__context_compact": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__fs_edit": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__open_skill": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__fs_create_file": {
+          "enabled": true,
+          "approvalMode": "require_approval"
+        },
+        "yolo_local__fs_delete_file": {
+          "enabled": true,
+          "approvalMode": "require_approval"
+        },
+        "yolo_local__fs_create_dir": {
+          "enabled": true,
+          "approvalMode": "require_approval"
+        },
+        "yolo_local__fs_delete_dir": {
+          "enabled": true,
+          "approvalMode": "require_approval"
+        },
+        "yolo_local__fs_move": {
+          "enabled": true,
+          "approvalMode": "require_approval"
+        },
+        "yolo_local__memory_add": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__memory_update": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        },
+        "yolo_local__memory_delete": {
+          "enabled": true,
+          "approvalMode": "full_access"
+        }
+      },
+      "enabledSkills": [],
+      "skillPreferences": {},
+      "createdAt": 1778678318339,
+      "updatedAt": 1778753294138
+    }
+  ],
+  "currentAssistantId": "__default_agent__",
+  "quickAskAssistantId": "__default_agent__"
+}

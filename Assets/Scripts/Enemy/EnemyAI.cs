@@ -43,7 +43,7 @@ public class EnemyAI : MonoBehaviour
     protected virtual void Start()
     {
         //NavMesh.CalculatePath(transform.position, player.position, NavMesh.AllAreas, new NavMeshPath());
-        Spot?.Invoke();
+        
         //agent.updatePosition = false;
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -59,6 +59,8 @@ public class EnemyAI : MonoBehaviour
     }
     private void OnEnable()
     {
+        if (_agent != null)
+            Spot?.Invoke();
         agent.enabled = true;
     }
     private void OnDisable()

@@ -558,6 +558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 10
+  player: 0
 --- !u!61 &2772349604980816870
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -661,19 +662,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage:
     clip: {fileID: 8300000, guid: e1017b64a0553c240a609dabd1a45ff9, type: 3}
-    volume: 0.42
+    volume: 1
   death:
     clip: {fileID: 8300000, guid: a80c18b7fce90e449875da1bf933c732, type: 3}
     volume: 1
   attack:
     clip: {fileID: 8300000, guid: aaa186a520495494d8c7565bce127272, type: 3}
-    volume: 0.668
+    volume: 1
   stun:
     clip: {fileID: 8300000, guid: 0bbf6004f546aba44bd283b946476dd8, type: 3}
-    volume: 0.689
+    volume: 1
   spot:
     clip: {fileID: 8300000, guid: de56bf68538a9114d8489bd5bec3e433, type: 3}
-    volume: 0.702
+    volume: 0.932
 --- !u!1 &8346481141498718397
 GameObject:
   m_ObjectHideFlags: 0
