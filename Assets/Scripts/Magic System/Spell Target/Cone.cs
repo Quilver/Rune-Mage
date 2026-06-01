@@ -42,7 +42,7 @@ namespace MagicSystem.Target
                 filter.mesh.vertices = UpdateMeshVertices(mesh, range);
                 filter.mesh.RecalculateNormals();
                 filter.mesh.RecalculateBounds();
-                yield return null; // Wait for the next frame
+                yield return new WaitForFixedUpdate(); // Wait for the next frame
             }
             gameObject.SetActive(false);
             //OnRelease();
