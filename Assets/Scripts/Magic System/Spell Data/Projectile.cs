@@ -2,7 +2,7 @@ using UnityEngine;
 namespace SpellSystem.Data
 {
     [CreateAssetMenu(fileName = "Projectile", menuName = "Spell/Projectile")]
-    public class Projectile : SpellData
+    public class Projectile : SpellData, IRange, ISpeed
     {
         [Header("Projectile Data")]
         [SerializeField, Range(0.5f, 10)]

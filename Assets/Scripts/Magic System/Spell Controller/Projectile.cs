@@ -38,8 +38,12 @@ namespace SpellSystem.Controller
     [RequireComponent(typeof(Collider2D)), RequireComponent(typeof(Rigidbody2D))]
     public class Projectile : SpellController<Data.Projectile>
     {
+        Data.Projectile data;
+        Transform caster;
         public override void InitiateSpell(Data.Projectile data, Transform caster, Vector2 position, Vector2 direction)
         {
+            this.data = data;
+            this.caster = caster;
             transform.position = position;
             transform.up = direction;
             GetComponent<Rigidbody2D>().linearVelocity = data.Speed * direction;
@@ -48,6 +52,10 @@ namespace SpellSystem.Controller
         {
             if (collision.gameObject.layer == gameObject.layer) return;
             //onContactTarget?.Invoke(collision.gameObject);
+            foreach (var effect in data._effects)
+            {
+                effect.ApplyEffect(collision.gameObject, caster.gameObject);
+            }
             Destroy(gameObject);
         }
         public override void ReleaseSpell()

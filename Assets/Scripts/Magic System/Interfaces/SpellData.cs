@@ -11,6 +11,18 @@ namespace SpellSystem
         public List<ISpellEffect> _effects;
         
     }
+    public interface IRange
+    {
+        float Range { get; }
+    }
+    public interface ISpeed
+    {
+        float Speed { get; }
+    }
+    public interface IDuration
+    {
+        float Duration { get; }
+    }
     public abstract class SpellDecorator : SpellData
     {
         SpellData spellData;
