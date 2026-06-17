@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 4599990195964176096, guid: f60722f1dfe81a14cb613904a2606fe5, type: 3}
   effects: []
+  references:
+    version: 2
+    RefIds: []
