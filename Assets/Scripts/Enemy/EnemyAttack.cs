@@ -7,6 +7,6 @@ public class EnemyAttack : ScriptableObject
     public float range;
     public float attackWarmup;
     public float attackCooldown;
-    public Spell attack; // Optional override
+    public SpellSystem.SpellData attack; // Optional override
     public bool requirePathCheck;
 }

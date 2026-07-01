@@ -1,4 +1,3 @@
-using MagicSystem.Spell;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -10,7 +9,7 @@ namespace MagicSystem
         InputActionReference lookControl, mouseLook;
         [SerializeField, Range(0.3f, 2)] float radius;
         public Vector2 lookDirection;
-        [SerializeField] ISpellTarget spell;
+        [SerializeField] SpellSystem.SpellData spell;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {

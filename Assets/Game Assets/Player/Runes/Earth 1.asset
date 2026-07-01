@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6d7a9e47d335a449a22062426a7105, type: 3}
   m_Name: Earth 1
   m_EditorClassIdentifier: 
-  runeIcon: {fileID: 21300000, guid: b6b291e6d000c9240815ae7f1589567f, type: 3}
+  runeIcon: {fileID: 21300000, guid: b73969cf836268f4b8f94a7f1abfc76f, type: 3}
   runeType: 2
   MaxUses: 12
   UsesLeft: 12

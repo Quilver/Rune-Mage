@@ -1,29 +1,33 @@
 using UnityEngine;
-[System.Serializable]
-struct Audio
+namespace SFX
 {
-    public AudioClip clip;
-    [Range(0f, 1f)] 
-    public float volume;
-}
-public class SFX_Manager : MonoBehaviour
-{
-    public static SFX_Manager instance;
-    [SerializeField]
-    GameObject soundFXObject;
-    private void Awake()
+    [System.Serializable]
+    class Audio
     {
-        instance = this;
+        public AudioClip clip;
+        [Range(0f, 1f)]
+        public float volume = 0.5f;
     }
-    public void PlaySFXClip(AudioClip clip, Transform spawn, float volume)
+    public class SFX_Manager : MonoBehaviour
     {
-        AudioSource audioSource = Instantiate(soundFXObject, spawn.position, Quaternion.identity).GetComponent<AudioSource>();
-        audioSource.clip = clip;
-        audioSource.volume = volume;
-        float clipLength = audioSource.clip.length;
+        public static SFX_Manager instance;
+        [SerializeField]
+        GameObject soundFXObject;
+        private void Awake()
+        {
+            instance = this;
+        }
+        public void PlaySFXClip(AudioClip clip, Transform spawn, float volume)
+        {
+            AudioSource audioSource = Instantiate(soundFXObject, spawn.position, Quaternion.identity).GetComponent<AudioSource>();
+            audioSource.clip = clip;
+            audioSource.volume = volume;
+            float clipLength = audioSource.clip.length;
 
-        audioSource.Play();
-        Destroy(audioSource, clipLength);
+            audioSource.Play();
+            Destroy(audioSource, clipLength);
 
+        }
     }
+
 }

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using static Unity.Collections.Unicode;
-[RequireComponent(typeof(HP))]
+[RequireComponent(typeof(Character.HP))]
+[RequireComponent(typeof(Character.TargetSystem))]
 public class PlayerControls : MonoBehaviour
 {
     [SerializeField]
@@ -11,7 +12,7 @@ public class PlayerControls : MonoBehaviour
     public void LevelUp(PlayerData data)
     {
         playerData = data;
-        GetComponent<HP>().hp = data.maxHealth;
+        GetComponent<Character.HP>().hp = data.maxHealth;
         Reset();
     }
     public Action<Rune> OnRuneUnlock;
@@ -41,7 +42,7 @@ public class PlayerControls : MonoBehaviour
         OnRuneUnlock?.Invoke(rune);
     }
     [SerializeField]
-    SpellFactory spellFactory;
+    SpellSystem.SpellFactory spellFactory;
     [SerializeField]
     GameObject wand;
     //public Action<int> onHealthChanged;
@@ -60,7 +61,7 @@ public class PlayerControls : MonoBehaviour
     public void Reset()
     {
         Debug.Log("Setting player hp:" + playerData.maxHealth);
-        GetComponent<HP>().SetHP(playerData.maxHealth);
+        GetComponent<Character.HP>().SetHP(playerData.maxHealth);
         //moveSpeed = playerData.moveSpeed;
         spellBuffer = new RuneType[playerData.maxRuneSlots];
         wind = playerData.windRune;
@@ -93,9 +94,12 @@ public class PlayerControls : MonoBehaviour
     public bool CastSpell(bool projection)
     {
         if(currentRuneIndex == 0) return false;
-        var spell = Instantiate(spellFactory.GetSpell(spellBuffer.ToList(), projection));
-        Debug.Log("Casting spell:" + spell.name);
-        spell.Cast(gameObject, wand.transform.position, (wand.transform.position-transform.position).normalized);
+        //var spell = Instantiate(spellFactory.GetSpell(spellBuffer.ToList(), projection));
+        //Debug.LogError("Should be casting spell:" + spell.name);
+        Vector2 pos = transform.position;
+        Vector2 dir = (wand.transform.position - transform.position).normalized;
+        spellFactory.GetSpell(spellBuffer.ToList(), projection).Cast(GetComponent<Character.PlayerTargetSystem>(), pos, dir);
+        //spell.(gameObject, wand.transform.position, (wand.transform.position-transform.position).normalized);
         spellBuffer = new RuneType[spellBuffer.Length];
         currentRuneIndex = 0;
         onSpellCast?.Invoke();

@@ -3,7 +3,8 @@ using UnityEngine;
 [System.Serializable]
 public class Push : ISpellEffect
 {
-    [SerializeField, Range(.3f, 5)] float pushForce;
+    [SerializeField, Range(.3f, 5)] float pushForce = 1f;
+    [SerializeField, Tooltip("Force for continuous; Impulse for impact.")] ForceMode2D forceMode;
     public override void ApplyEffect(GameObject target, GameObject caster)
     {
         var rb = target.GetComponent<Rigidbody2D>();

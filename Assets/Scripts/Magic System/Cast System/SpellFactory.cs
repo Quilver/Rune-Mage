@@ -1,29 +1,32 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
-[CreateAssetMenu(fileName = "SpellFactory", menuName = "Scriptable Objects/SpellFactory")]
-public class SpellFactory : ScriptableObject
+namespace SpellSystem
 {
-    public List<SpellRecipe> spellRecipes;
-    public Spell GetSpell(List<RuneType> runes, bool projected)
+    [CreateAssetMenu(fileName = "SpellFactory", menuName = "Scriptable Objects/SpellFactory")]
+    public class SpellFactory : ScriptableObject
     {
-        foreach (SpellRecipe recipe in spellRecipes)
+        public List<SpellRecipe> spellRecipes;
+        public SpellData GetSpell(List<RuneType> runes, bool projected)
         {
-            if (!runes.Except(recipe.requirements).Any() && recipe.projected == projected)
+            foreach (SpellRecipe recipe in spellRecipes)
             {
-                return recipe.spell;
+                if (!runes.Except(recipe.requirements).Any() && recipe.projected == projected)
+                {
+                    return recipe.spell;
+                }
             }
+            Debug.Log("No spell found for the given runes and projection.");
+            return null;
         }
-        Debug.Log("No spell found for the given runes and projection.");
-        return null;
     }
-}
-[System.Serializable]
-public struct SpellRecipe
-{
-    public Spell spell;
-    public int priority;
-    public List<RuneType> requirements;
-    public bool projected;//if true, the spell will be cast in the direction the caster is facing, otherwise it will be cast on the caster
-    
+    [System.Serializable]
+    public struct SpellRecipe
+    {
+        public SpellData spell;
+        public int priority;
+        public List<RuneType> requirements;
+        public bool projected;//if true, the spell will be cast in the direction the caster is facing, otherwise it will be cast on the caster
+
+    }
 }

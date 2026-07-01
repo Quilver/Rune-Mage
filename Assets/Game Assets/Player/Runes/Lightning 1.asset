@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6d7a9e47d335a449a22062426a7105, type: 3}
   m_Name: Lightning 1
   m_EditorClassIdentifier: 
-  runeIcon: {fileID: 21300000, guid: 50f34b8b3f903b843a25b3a7d8eafc45, type: 3}
+  runeIcon: {fileID: 21300000, guid: c96b5228b5566c049a73d40d93b167d2, type: 3}
   runeType: 3
   MaxUses: 9
   UsesLeft: 9

@@ -1,10 +1,10 @@
 using UnityEngine;
 using System.Collections;
 
-namespace MagicSystem.Target
+namespace SpellSystem
 {
     [RequireComponent(typeof(ParticleSystem))]
-    public class AOE : Spell.ISpellTarget
+    public class AOE : SpellController<Data.AOE>
     {
         ParticleSystem particle;
         [SerializeField, Range(0.6f, 10f)] float radius;
@@ -45,20 +45,26 @@ namespace MagicSystem.Target
             gameObject.SetActive(false);
         }
 
-        public override void CastSpell(Vector2 position, Vector2 direction, GameObject caster)
-        {
-            particle = GetComponent<ParticleSystem>();
-            transform.localScale = radius * Vector3.one;
-            transform.position = caster.transform.position;
-        }
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            onContactTarget?.Invoke(collision.gameObject);
+            //onContactTarget?.Invoke(collision.gameObject);
         }
         void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, radius*0.5f);
+        }
+
+        protected override void InitiateSpell(Vector2 position, Vector2 direction)
+        {
+            particle = GetComponent<ParticleSystem>();
+            transform.localScale = radius * Vector3.one;
+            transform.position = caster.transform.position;
+        }
+
+        public override void ReleaseSpell()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

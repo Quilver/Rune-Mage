@@ -2,6 +2,78 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
+
+namespace SpellSystem.Controller
+{
+    public class Cone : SpellController<Data.Cone>
+    {
+        [SerializeField, Range(2, 20)] int rayCount = 12;
+        ParticleSystem particle;
+        protected override void InitiateSpell(Vector2 position, Vector2 direction)
+        {
+            transform.position = caster.ShootPosition;
+            transform.up = direction;
+            particle = GetComponentInChildren<ParticleSystem>();
+            particle.startSpeed = data.Speed;
+            particle.startLifetime = data.Range/data.Speed;
+            
+        }
+        void FixedUpdate()
+        {
+            if (data == null) return;
+            Debug.Assert(caster != null);
+            
+            transform.position = caster.ShootPosition;
+            transform.up = caster.ShootDirection;
+            foreach (var target in GetTargets(data.Range))
+            {
+                ApplyEffects(target);
+            }
+        }
+        public override void ReleaseSpell()
+        {
+            Destroy(gameObject);
+        }
+        List<GameObject> GetTargets(float range)
+        {
+            List<GameObject> targets = new();
+            float deltaAngle = data.ArcAngle / rayCount;
+
+            for (int i = 0; i < rayCount; i++)
+            {
+                Vector3 ray = RotateDir(deltaAngle, caster.ShootDirection);
+                var hit = Physics2D.Raycast(caster.ShootPosition, ray, range, data.Layer);
+                if (hit)
+                {
+                    targets.Add(hit.collider.gameObject);
+                }
+            }
+
+            return targets;
+        }
+
+        Vector3 RotateDir(float angle, Vector3 dir)
+        {
+            return Quaternion.Euler(0, 0, angle) * dir;
+        }
+        private void OnDrawGizmos()
+        {
+            if (data == null) return;
+            Gizmos.color = Color.black;
+            float deltaAngle = data.ArcAngle / rayCount;
+
+            for (int i = 0; i < rayCount; i++)
+            {
+                Vector3 ray = RotateDir(data.ArcAngle/2 - deltaAngle*i, transform.up);
+                var hit = Physics2D.Raycast(transform.position, ray, data.Range, data.Layer);
+                Gizmos.DrawRay(caster.ShootPosition, data.Range * ray);
+            }
+        }
+    }
+
+}
+/*
 namespace MagicSystem.Target
 {
     [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
@@ -146,54 +218,4 @@ namespace MagicSystem.Target
         }
     }
 }
-namespace SpellSystem.Controller
-{
-    public class Cone : SpellController<Data.Cone>
-    {
-        Data.Cone data;
-        Transform caster;
-        [SerializeField, Range(2, 20)] int rayCount = 12;
-        public override void InitiateSpell(Data.Cone data, Transform caster, Vector2 position, Vector2 direction)
-        {
-            this.data = data;
-            this.caster = caster;
-
-        }
-
-        public override void ReleaseSpell()
-        {
-            throw new System.NotImplementedException();
-        }
-        List<GameObject> GetTargets(float range)
-        {
-            List<GameObject> targets = new List<GameObject>();
-            float deltaAngle = data.ArcAngle / rayCount;
-
-            for (int i = 0; i < rayCount; i++)
-            {
-                Vector3 ray = RayDir(deltaAngle, caster.up);
-                var hit = Physics2D.Raycast(caster.position, caster.up, range, data.layerMask);
-                if (hit)
-                {
-                    targets.Add(hit.collider.gameObject);
-                }
-            }
-
-            return targets;
-        }
-
-        Vector3 RayDir(float angle, Vector3 up)
-        {
-            Quaternion rotation = Quaternion.Euler(0, 0, angle);
-            return rotation * up;
-        }
-        private void OnDrawGizmos()
-        {
-            Vector3 leftRay = data.Range * RayDir(-data.ArcAngle/2, caster.up);
-            Vector3 rightRay = data.Range * RayDir(data.ArcAngle / 2, caster.up);
-            Gizmos.DrawRay(transform.position, leftRay);
-            Gizmos.DrawRay(transform.position, rightRay);
-        }
-    }
-
-}
+*/

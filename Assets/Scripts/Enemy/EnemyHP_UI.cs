@@ -3,13 +3,13 @@ using UnityEngine.UI;
 
 public class EnemyHP_UI : MonoBehaviour
 {
-    HP hp;
+    Character.HP hp;
     float maxHP;
     Slider slider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        hp = GetComponentInParent<HP>();
+        hp = GetComponentInParent<Character.HP>();
         hp.OnHpChanged += UpdateHP;
         maxHP = hp.hp;
         slider = GetComponent<Slider>();

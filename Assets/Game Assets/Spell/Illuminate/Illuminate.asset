@@ -9,8 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96fdb427185dc5545ba93d038a962e88, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c2735b2f56516c408cc59b344f4c472, type: 3}
   m_Name: Illuminate
   m_EditorClassIdentifier: 
-  target: {fileID: 5096205553431048270, guid: d074d88cc4c0ed643b67d661381002c0, type: 3}
-  effects: []
+  _spellName: Illuminate
+  _effects: []
+  _spellObject: {fileID: 4412010120075871295, guid: d074d88cc4c0ed643b67d661381002c0, type: 3}
+  duration: 6
+  references:
+    version: 2
+    RefIds: []

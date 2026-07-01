@@ -9,18 +9,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e71e0bec8ba5c04887dbf8ff98124e1, type: 3}
-  m_Name: Fireball v2
+  m_Script: {fileID: 11500000, guid: 27b23833dfc81c143b67e3f3df778acc, type: 3}
+  m_Name: Fireblast
   m_EditorClassIdentifier: 
-  _spellName: Fireball
+  _spellName: Fireblast
   _effects:
-  - rid: 3826794537464365361
-  _range: 4
-  _speed: 2
+  - rid: 3826794562304868435
+  _spellObject: {fileID: 1405095249192529824, guid: edf2dbcafcc876144b2927b575bcda04, type: 3}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 0
   references:
     version: 2
     RefIds:
-    - rid: 3826794537464365361
+    - rid: 3826794562304868435
       type: {class: Damage, ns: , asm: Assembly-CSharp}
       data:
         damage: 3

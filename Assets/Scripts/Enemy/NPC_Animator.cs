@@ -40,7 +40,7 @@ public class NPC_Animator : MonoBehaviour
         }
         animator = GetComponent<Animator>();
         body = GetComponentsInChildren<SpriteRenderer>();
-        EnemyAI ai = GetComponentInParent<EnemyAI>();
+        NPC.EnemyAI ai = GetComponentInParent<NPC.EnemyAI>();
         agent = GetComponentInParent<NavMeshAgent>();
         current = Move;
         ai.OnMove += () => { current.OnExit(); Move.OnEnter(); current = Move; };
@@ -61,7 +61,7 @@ public class NPC_Animator : MonoBehaviour
         }
         else
             animator.SetBool("Moving", false);
-        Looking(GetComponentInParent<EnemyAI>().LookRight());
+        Looking(GetComponentInParent<NPC.EnemyAI>().LookRight());
         
     }
     void Moving(bool right)

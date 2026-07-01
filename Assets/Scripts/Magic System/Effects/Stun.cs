@@ -5,7 +5,7 @@ public class Stun : ISpellEffect
 {
     public override void ApplyEffect(GameObject target, GameObject caster)
     {
-        HP hp = target.GetComponent<HP>();
+        Character.HP hp = target.GetComponent<Character.HP>();
         if(hp==null) return;
         hp.OnStun?.Invoke();
     }

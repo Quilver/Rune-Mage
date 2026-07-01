@@ -9,11 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96fdb427185dc5545ba93d038a962e88, type: 3}
-  m_Name: EarthWall
+  m_Script: {fileID: 11500000, guid: d822a467157d62d47beb641984b6460a, type: 3}
+  m_Name: Earth shield
   m_EditorClassIdentifier: 
-  target: {fileID: 4599990195964176096, guid: f60722f1dfe81a14cb613904a2606fe5, type: 3}
-  effects: []
+  _spellName: Earth shield
+  _effects: []
+  _spellObject: {fileID: 4175569692992306990, guid: f60722f1dfe81a14cb613904a2606fe5, type: 3}
+  _hp: 21
+  _duration: 10
+  _range: 1.07
   references:
     version: 2
     RefIds: []

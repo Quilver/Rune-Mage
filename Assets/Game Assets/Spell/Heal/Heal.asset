@@ -9,7 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: faf3b9795b977154e954bb18dee36447, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c2735b2f56516c408cc59b344f4c472, type: 3}
   m_Name: Heal
   m_EditorClassIdentifier: 
-  healAmount: 3
+  _spellName: Heal
+  _effects:
+  - rid: 3826794562304868434
+  _spellObject: {fileID: 4580091574116197297, guid: 02fa20a985ee42c4f8039795c3a1362e, type: 3}
+  duration: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 3826794562304868434
+      type: {class: Heal, ns: , asm: Assembly-CSharp}
+      data:
+        healAmount: 10

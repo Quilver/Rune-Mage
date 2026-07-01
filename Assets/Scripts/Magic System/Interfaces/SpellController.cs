@@ -1,19 +1,39 @@
 using UnityEngine;
 namespace SpellSystem
 {
-    public abstract class SpellController<T> : MonoBehaviour where T : SpellData
+    public abstract class SpellCast : MonoBehaviour
     {
-        public abstract void InitiateSpell(T data, Transform caster, Vector2 position, Vector2 direction);
-        public abstract void ReleaseSpell();
+        public abstract void Cast(SpellData spellData, Character.TargetSystem caster, Vector2 position, Vector2 direction);
+        public virtual void ReleaseSpell()
+        {
+
+        }
     }
-    public class Projectile: SpellController<Data.Projectile>
+    public abstract class SpellController<T> : SpellCast where T : SpellData
     {
-        public override void InitiateSpell(Data.Projectile data, Transform caster, Vector2 position, Vector2 direction)
+        [SerializeField]
+        protected T data;
+        [SerializeField]
+        protected Character.TargetSystem caster;
+        public override void Cast(SpellData spellData, Character.TargetSystem caster, Vector2 position, Vector2 direction)
         {
-            throw new System.NotImplementedException();
+            Debug.Assert(spellData != null && typeof(T) == spellData.GetType());
+            CastSpell(spellData as T, caster, position, direction);
         }
-        public override void ReleaseSpell()
+        public void CastSpell(T data, Character.TargetSystem caster, Vector2 position, Vector2 direction)
         {
+            this.data = data;
+            Debug.Assert(caster != null);
+            this.caster = caster;
+            InitiateSpell(position, direction);
         }
-}
+        protected virtual void ApplyEffects(GameObject target)
+        {
+            foreach (var effect in data._effects)
+            {
+                effect.ApplyEffect(target, caster.gameObject);
+            }
+        }
+        protected abstract void InitiateSpell(Vector2 position, Vector2 direction);
+    }
 }

@@ -13,19 +13,23 @@ MonoBehaviour:
   m_Name: SpellBook
   m_EditorClassIdentifier: 
   spellRecipes:
-  - spell: {fileID: 11400000, guid: be78e16e08360d3428d2e41c50c7552f, type: 2}
+  - spell: {fileID: 11400000, guid: 7a814a9170d4b594a9f15f27882040cd, type: 2}
     priority: 0
     requirements: 01000000
     projected: 1
-  - spell: {fileID: 11400000, guid: 79590b5c841923640abc24ba215876a0, type: 2}
+  - spell: {fileID: 11400000, guid: a9d3c494b2fd3ee409236acd0b46b30d, type: 2}
     priority: 0
-    requirements: 00000000
+    requirements: 01000000
     projected: 0
-  - spell: {fileID: 11400000, guid: 3b62282c5a30a9a49ba06a26f150b756, type: 2}
+  - spell: {fileID: 11400000, guid: 62831e58319e10c4e994c354caf20f8b, type: 2}
     priority: 0
     requirements: 00000000
     projected: 1
-  - spell: {fileID: 11400000, guid: e9a30bd831e62dd4cbbc72ba9e63b1d8, type: 2}
+  - spell: {fileID: 0}
+    priority: 0
+    requirements: 00000000
+    projected: 0
+  - spell: {fileID: 11400000, guid: 7e9ff608186e5ff4594fb985a4072edc, type: 2}
     priority: 0
     requirements: 02000000
     projected: 1
@@ -37,11 +41,7 @@ MonoBehaviour:
     priority: 0
     requirements: 03000000
     projected: 1
-  - spell: {fileID: 11400000, guid: b605dd26ffb10f74e9e622e0987e66e5, type: 2}
+  - spell: {fileID: 11400000, guid: aef100e79d8843d419144dbe12be0f35, type: 2}
     priority: 0
     requirements: 03000000
-    projected: 0
-  - spell: {fileID: 11400000, guid: a9d3c494b2fd3ee409236acd0b46b30d, type: 2}
-    priority: 0
-    requirements: 01000000
     projected: 0

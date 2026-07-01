@@ -186,7 +186,6 @@ GameObject:
   - component: {fileID: 5234427153606239983}
   - component: {fileID: 6467836392480649578}
   - component: {fileID: 2594032013343262063}
-  - component: {fileID: 2844001752044820067}
   m_Layer: 8
   m_Name: Spear Projectile
   m_TagString: Untagged
@@ -296,20 +295,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbe440eeca5c7f24a84c896de9be8c96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 4
-  speed: 3
---- !u!114 &2844001752044820067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7204318261361454291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a69f397fa193d549b2ec321132c625e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effects:
-  - {fileID: 11400000, guid: 0892a3b0d8badc6428758dd95ccaa1fe, type: 2}
-  target: {fileID: 2594032013343262063}

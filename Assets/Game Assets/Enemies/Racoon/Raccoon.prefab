@@ -491,6 +491,7 @@ GameObject:
   - component: {fileID: 2493828355885982985}
   - component: {fileID: 3431341930431058192}
   - component: {fileID: 7066770791257044189}
+  - component: {fileID: 3367575616664188193}
   m_Layer: 6
   m_Name: Raccoon
   m_TagString: Untagged
@@ -618,9 +619,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  projectilePrefab: {fileID: 7204318261361454291, guid: 3293795937b61464394fe80436097cfe, type: 3}
-  leftFirePoint: {fileID: 3454597456216607657}
-  rightFirePoint: {fileID: 7146382965825310142}
+  spear: {fileID: 0}
+  firePoint: {fileID: 0}
   moveSpeed: 4
   attackRange: 3
   attackWarmup: 2
@@ -675,6 +675,21 @@ MonoBehaviour:
   spot:
     clip: {fileID: 8300000, guid: de56bf68538a9114d8489bd5bec3e433, type: 3}
     volume: 0.932
+--- !u!114 &3367575616664188193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005526949945481879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0783faa1edf4e954bb1048751996ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 0}
+  player: {fileID: 0}
+  leftOrRight: 0
 --- !u!1 &8346481141498718397
 GameObject:
   m_ObjectHideFlags: 0

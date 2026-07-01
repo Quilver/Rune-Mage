@@ -1,22 +1,25 @@
 using UnityEngine;
-
-public class Player_SFX : MonoBehaviour
+namespace SFX
 {
-    void Start()
+    public class Player_SFX : MonoBehaviour
     {
-        GetComponent<HP>().OnHpChanged += hpChange;
-        GetComponent<PlayerControls>().onSpellCast += Attack;
+        void Start()
+        {
+            GetComponent<Character.HP>().OnHpChanged += hpChange;
+            GetComponent<PlayerControls>().onSpellCast += Attack;
+        }
+        [SerializeField] Audio damage, attack, death;
+        void Attack()
+        {
+            //SFX_Manager.instance.PlaySFXClip(attack.clip, transform, attack.volume);
+        }
+        void hpChange(int hp)
+        {
+            if (hp > 0)
+                SFX_Manager.instance.PlaySFXClip(damage.clip, transform, damage.volume);
+            else
+                SFX_Manager.instance.PlaySFXClip(death.clip, transform, death.volume);
+        }
     }
-    [SerializeField] Audio damage, attack, death;
-    void Attack()
-    {
-        //SFX_Manager.instance.PlaySFXClip(attack.clip, transform, attack.volume);
-    }
-    void hpChange(int hp)
-    {
-        if (hp > 0)
-            SFX_Manager.instance.PlaySFXClip(damage.clip, transform, damage.volume);
-        else
-            SFX_Manager.instance.PlaySFXClip(death.clip, transform, death.volume);
-    }
+
 }

@@ -6,13 +6,13 @@ public class PlayerAnimation : MonoBehaviour
     SpriteRenderer[] sprites;
     Animator animator;
     [SerializeField] Animator staff;
-    [SerializeField] Transform light, wand;
+    [SerializeField] Transform staffLight;
+    [SerializeField] Transform wand;
     [SerializeField]
     PlayerMovement movement;
     void Start()
     {
         
-        CastingInput casting;
         PlayerControls controls = GetComponentInParent<PlayerControls>();
         controls.onRuneUsed += Casting;
         animator = GetComponent<Animator>();
@@ -21,9 +21,9 @@ public class PlayerAnimation : MonoBehaviour
     void Casting(Rune rune, int uses)
     {
         staff.SetBool("Cast", true);
-        StartCoroutine(_casting());
+        StartCoroutine(casting());
     }
-    IEnumerator _casting() { yield return null; staff.SetBool("Cast", false); }
+    IEnumerator casting() { yield return null; staff.SetBool("Cast", false); }
     // Update is called once per frame
     void Update()
     {
@@ -43,10 +43,10 @@ public class PlayerAnimation : MonoBehaviour
     {
         foreach (var item in sprites)
             item.flipX = right;
-        float x = Mathf.Abs(light.localPosition.x);
+        float x = Mathf.Abs(staffLight.localPosition.x);
         if (right)
-            light.localPosition = new Vector3(x, light.localPosition.y, 0);
+            staffLight.localPosition = new Vector3(x, staffLight.localPosition.y, 0);
         else
-            light.localPosition = new Vector3(-x, light.localPosition.y, 0);
+            staffLight.localPosition = new Vector3(-x, staffLight.localPosition.y, 0);
     }
 }

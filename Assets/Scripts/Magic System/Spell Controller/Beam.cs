@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace MagicSystem.Target
+namespace SpellSystem
 {
     [RequireComponent(typeof(LineRenderer))]
-    public class Beam : Spell.ISpellTarget
+    public class Beam : SpellController<Data.Beam>
     {
         [SerializeField, Range(3f, 100f)] float duration;
         [SerializeField, Range(1f, 100f)] float maxRange, speed;
@@ -33,14 +33,14 @@ namespace MagicSystem.Target
             gameObject.SetActive(false);
         }
 
-
-        public override void CastSpell(Vector2 position, Vector2 direction, GameObject caster)
+        protected override void InitiateSpell(Vector2 position, Vector2 direction)
         {
             throw new System.NotImplementedException();
         }
-        void onGizmosSelected()
-        {
 
+        public override void ReleaseSpell()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

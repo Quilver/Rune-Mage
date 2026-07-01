@@ -1,42 +1,45 @@
 using System;
 using UnityEngine;
-
-public class HP : MonoBehaviour
+namespace Character
 {
-    public int hp = 10;
-    public Action OnStun;
-    public Action<int> OnHpChanged;
-    public void TakeDamage(int damage)
+    public class HP : MonoBehaviour
     {
-        hp -= damage;
-        OnHpChanged?.Invoke(hp);
-        if (hp <= 0)
+        public int hp = 10;
+        public Action OnStun;
+        public Action<int> OnHpChanged;
+        public void TakeDamage(int damage)
         {
-            Die();
+            hp -= damage;
+            OnHpChanged?.Invoke(hp);
+            if (hp <= 0)
+            {
+                Die();
+            }
+        }
+        public void SetHP(int hp)
+        {
+            this.hp = hp;
+            OnHpChanged?.Invoke(hp);
+        }
+        public void Heal(int healAmount)
+        {
+            hp += healAmount;
+            OnHpChanged?.Invoke(hp);
+            // Optionally, you can add a maximum HP limit here
+        }
+        [SerializeField] bool player = false;
+        private void Die()
+        {
+            if (player)
+            {
+                transform.position = new Vector3(1, -7.5f, 0);
+                GetComponent<PlayerControls>().Reset();
+                CameraTransition.instance.Reset();
+                return;
+            }
+            // Handle death logic here
+            Destroy(gameObject);
         }
     }
-    public void SetHP(int hp)
-    {
-        this.hp = hp;
-        OnHpChanged?.Invoke(hp);
-    }
-    public void Heal(int healAmount)
-    {
-        hp += healAmount;
-        OnHpChanged?.Invoke(hp);
-        // Optionally, you can add a maximum HP limit here
-    }
-    [SerializeField] bool player = false;
-    private void Die()
-    {
-        if (player)
-        {
-            transform.position = new Vector3(1, -7.5f, 0);
-            GetComponent<PlayerControls>().Reset();
-            CameraTransition.instance.Reset();
-            return;
-        }
-        // Handle death logic here
-        Destroy(gameObject);
-    }
+
 }

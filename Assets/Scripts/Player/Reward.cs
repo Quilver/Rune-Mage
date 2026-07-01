@@ -4,7 +4,7 @@ using System.Collections;
 public class Reward : MonoBehaviour
 {
     [SerializeField]
-    Audio rewardJingle;
+    SFX.Audio rewardJingle;
     public enum RewardType
     {
         Fire, Earth, Lightning, Level
@@ -27,7 +27,7 @@ public class Reward : MonoBehaviour
     }
     public void RewardEffect(PlayerControls player)
     {
-        SFX_Manager.instance.PlaySFXClip(rewardJingle.clip, transform, rewardJingle.volume);
+        SFX.SFX_Manager.instance.PlaySFXClip(rewardJingle.clip, transform, rewardJingle.volume);
 
         switch (type)
         {

@@ -15,12 +15,12 @@ public class HUD_Controller : MonoBehaviour
     }
     private void OnEnable()
     {
-        playerControls.GetComponent<HP>().OnHpChanged += GetPlayerHealth;
+        playerControls.GetComponent<Character.HP>().OnHpChanged += GetPlayerHealth;
         playerControls.onRuneAdded += AddRune;
         playerControls.onRuneUsed += RuneUses;
         playerControls.onSpellCast += CastSpell;
         playerControls.OnRuneUnlock += UnlockRune;
-        GetPlayerHealth(playerControls.GetComponent<HP>().hp);
+        GetPlayerHealth(playerControls.GetComponent<Character.HP>().hp);
     }
     int maxHP = 25;
     void GetPlayerHealth(int hp)

@@ -9,9 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96fdb427185dc5545ba93d038a962e88, type: 3}
+  m_Script: {fileID: 11500000, guid: 22dcc1d9bb040a2488e6c8d0752c3177, type: 3}
   m_Name: Earthquake
   m_EditorClassIdentifier: 
-  target: {fileID: 829095875186340798, guid: 3e816f0a942219d42abcf1f95810e5a1, type: 3}
-  effects:
-  - {fileID: 11400000, guid: f6f9737ce81e68a4c9d2c7aeb21ef257, type: 2}
+  _spellName: Earthquake
+  _effects: []
+  _spellObject: {fileID: 1845819441354080270, guid: 3e816f0a942219d42abcf1f95810e5a1, type: 3}
+  radius: 4.2
+  secondsToFullRadius: 0.14
+  secondsAtMaxRadius: 0.32
+  references:
+    version: 2
+    RefIds: []

@@ -9,9 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96fdb427185dc5545ba93d038a962e88, type: 3}
-  m_Name: WindBlast
+  m_Script: {fileID: 11500000, guid: 27b23833dfc81c143b67e3f3df778acc, type: 3}
+  m_Name: Windblast
   m_EditorClassIdentifier: 
-  target: {fileID: 8264915168965110754, guid: 9a9a46839198a5d4cbd561f1da2d39c7, type: 3}
-  effects:
-  - {fileID: 11400000, guid: e6d82301562c6694faa76262e1bd44f8, type: 2}
+  _spellName: Windblast
+  _effects:
+  - rid: 3826794562304868433
+  _spellObject: {fileID: 5488028767699565169, guid: 9a9a46839198a5d4cbd561f1da2d39c7, type: 3}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  _isTrigger: 1
+  range: 2
+  speed: 4
+  duration: 5
+  arcAngle: 30
+  references:
+    version: 2
+    RefIds:
+    - rid: 3826794562304868433
+      type: {class: Push, ns: , asm: Assembly-CSharp}
+      data:
+        pushForce: 1.56
+        forceMode: 0

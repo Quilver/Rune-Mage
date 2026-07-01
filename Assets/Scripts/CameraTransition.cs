@@ -15,7 +15,7 @@ public class CameraTransition : MonoBehaviour
         public Vector3 TransitPoint;
         public GameObject cameraPos;
         public float distanceToPlayer;
-        public List<EnemyAI> enemyAI;
+        public List<NPC.EnemyAI> enemyAI;
         
     }
     [SerializeField]
@@ -61,7 +61,7 @@ public class CameraTransition : MonoBehaviour
             hubSong.enabled = true;
         else
             roomSong.enabled = true;
-        foreach (EnemyAI enemy in room.enemyAI) 
+        foreach (NPC.EnemyAI enemy in room.enemyAI) 
             if(enemy)enemy.enabled = true;
     }
     public void Exit(TransitionPoint room)
@@ -70,7 +70,7 @@ public class CameraTransition : MonoBehaviour
             hubSong.enabled = false;
         else
             roomSong.enabled = false;
-        foreach (EnemyAI enemy in room.enemyAI)
+        foreach (NPC.EnemyAI enemy in room.enemyAI)
             if (enemy) enemy.enabled = false;
     }
     void GetTransition(TransitionPoint[] points)

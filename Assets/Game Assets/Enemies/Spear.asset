@@ -10,18 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e71e0bec8ba5c04887dbf8ff98124e1, type: 3}
-  m_Name: Fireball
+  m_Name: Spear
   m_EditorClassIdentifier: 
-  _spellName: Fireball
+  _spellName: Spear
   _effects:
-  - rid: 3826794537464365361
-  _spellObject: {fileID: 4312784627577803648, guid: fa58e23984472d84392bbcd43e943cd9, type: 3}
-  _range: 4
-  _speed: 4
+  - rid: 3826794562304868430
+  - rid: 3826794562304868431
+  _spellObject: {fileID: 7204318261361454291, guid: 3293795937b61464394fe80436097cfe, type: 3}
+  _range: 5
+  _speed: 3.5
   references:
     version: 2
     RefIds:
-    - rid: 3826794537464365361
+    - rid: 3826794562304868430
       type: {class: Damage, ns: , asm: Assembly-CSharp}
       data:
         damage: 3
+    - rid: 3826794562304868431
+      type: {class: Push, ns: , asm: Assembly-CSharp}
+      data:
+        pushForce: 0.96
+        forceMode: 1

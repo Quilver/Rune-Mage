@@ -157,7 +157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   staff: {fileID: 8655244914133188023}
-  light: {fileID: 8367302403244670512}
+  staffLight: {fileID: 8367302403244670512}
+  wand: {fileID: 0}
   movement: {fileID: 0}
 --- !u!1 &3151565055027486015
 GameObject:

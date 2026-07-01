@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df6d7a9e47d335a449a22062426a7105, type: 3}
   m_Name: Wind
   m_EditorClassIdentifier: 
-  runeIcon: {fileID: 21300000, guid: 704971e311954614d948e0030197fdc0, type: 3}
+  runeIcon: {fileID: 21300000, guid: f331f0c4eff7775498e9c1aa4812aca9, type: 3}
   runeType: 0
   MaxUses: 12
   UsesLeft: 11

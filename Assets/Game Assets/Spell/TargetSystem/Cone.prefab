@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4395438271191832113}
-  - component: {fileID: 497099200544530526}
+  - component: {fileID: 3549137044971121160}
   - component: {fileID: 2395261707344632441}
   - component: {fileID: 8978856318918810582}
   - component: {fileID: 70102722033563015}
@@ -35,7 +35,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &497099200544530526
+--- !u!114 &3549137044971121160
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -47,14 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a79fe8be5522b5b4b8fea017440c7e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRange: 4
-  duration: 5
-  speed: 3
-  angle: 45
-  rayCount: 12
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 0
+  rayCount: 3
 --- !u!33 &2395261707344632441
 MeshFilter:
   m_ObjectHideFlags: 0

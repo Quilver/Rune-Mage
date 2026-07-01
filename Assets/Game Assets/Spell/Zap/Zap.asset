@@ -9,9 +9,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96fdb427185dc5545ba93d038a962e88, type: 3}
+  m_Script: {fileID: 11500000, guid: ab318134f2bb8d744b2d88e11f54afdf, type: 3}
   m_Name: Zap
   m_EditorClassIdentifier: 
-  target: {fileID: 5256446144024493565, guid: 38ecada7265705c4389c01533e69f59f, type: 3}
-  effects:
-  - {fileID: 11400000, guid: f683a18a4f6f3224c877537f59b75e82, type: 2}
+  _spellName: Zap
+  _effects:
+  - rid: 3826794562304868448
+  - rid: 3826794562304868449
+  _spellObject: {fileID: 8336459737192607526, guid: 38ecada7265705c4389c01533e69f59f, type: 3}
+  _range: 0.3
+  references:
+    version: 2
+    RefIds:
+    - rid: 3826794562304868448
+      type: {class: Damage, ns: , asm: Assembly-CSharp}
+      data:
+        damage: 8
+    - rid: 3826794562304868449
+      type: {class: Stun, ns: , asm: Assembly-CSharp}
+      data: 

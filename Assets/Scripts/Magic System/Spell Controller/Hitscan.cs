@@ -1,10 +1,20 @@
 using UnityEngine;
-namespace MagicSystem.Target
+namespace SpellSystem
 {
     [RequireComponent(typeof(LineRenderer))]
-    public class Hitscan : Spell.ISpellTarget
+    public class Hitscan : SpellController<Data.HitScan>
     {
-        [SerializeField, Range(1f, 100f)] float range;
+        public override void ReleaseSpell()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        protected override void InitiateSpell(Vector2 position, Vector2 direction)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        /*
         public override void CastSpell(Vector2 position, Vector2 direction, GameObject caster)
         {
             //transform.position = position;
@@ -27,9 +37,10 @@ namespace MagicSystem.Target
             lineRenderer.SetPosition(0, position);
             lineRenderer.SetPosition(1, target.transform.position);
         }
+        */
         void onGizmosSelected()
         {
-            Gizmos.DrawWireSphere(transform.position, range);
+            Gizmos.DrawWireSphere(transform.position, data.Range);
         }
     }
 }
